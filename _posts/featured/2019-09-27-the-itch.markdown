@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "The Itch"
+date:   2019-09-27 11:15:33 -0400
+categories: featured, projects
+---
+The Itch was a year long project developed in Unity and programmed with C#
+
+<figure>
+<iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
+</figure>
+
+![Screenshot 1]({{ site.url }}/media/TheItch/Screenshots/screenshot_large_06.png)
