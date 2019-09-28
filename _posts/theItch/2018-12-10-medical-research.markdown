@@ -7,6 +7,8 @@ categories: theItch
 
 The virus in this game is a disease that causes itching. I wanted to have some sort of biological basis and jargon for describing it and fleshing out how this virus might actually affect people. The following is a brief summary of that research. 
 
+<!--more-->
+
 * Itching is caused by the release of **histamines** that boost blood flow to the affected area and causes inflammatory response to aid in the healing of the wound. 
   * communicates messages to the brain
   * Triggers release of stomach acid to aid in digestion

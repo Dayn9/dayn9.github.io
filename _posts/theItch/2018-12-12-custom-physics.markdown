@@ -7,6 +7,8 @@ categories: theItch
 
 Based off [Unity 2D Platformer Character Controller Tutorial](https://www.youtube.com/watch?v=wGI2e3Dzk_w&t=9s) but heavily modified for specific use
 
+<!--more-->
+
 ## Why create custom physics?
 I was experimenting with the Unity Physics System but I was having trouble understanding how it worked and getting it to work properly. I was also interested in learning how collision handling might be done and building it myself seemed like much more fun than scrolling through the Unity documentation. 
 

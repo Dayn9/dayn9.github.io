@@ -23,6 +23,7 @@ twitter_username: Dazyn9
 github_username:  Dayn9
 
 show_excerpts: true
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

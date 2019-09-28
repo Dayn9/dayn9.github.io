@@ -9,6 +9,8 @@ Outlines became a necessary feature when I started to include NPC's with similar
 
 This also afforded me the option of changing the color of the outline without having to edit every sprite as well as at runtime.
 
+<!--more-->
+
 ## Google It
 The shader was heavily based off [this tutorial](https://www.youtube.com/watch?v=vqDOirux0Es) by [Dapper Dino - Coding Tutorials](https://www.youtube.com/channel/UCjCpZyil4D8TBb5nVTMMaUw) on YouTube. 
 

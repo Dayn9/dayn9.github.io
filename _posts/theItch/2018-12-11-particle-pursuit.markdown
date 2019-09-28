@@ -7,6 +7,8 @@ categories: theItch
 
 The explosion of particles that seek a point is probably the coolest effect in the game and was also one of the trickiest to figure out.
 
+<!--more-->
+
 RELEVANT CODE AT BOTTOM
 
 ## TL;DR

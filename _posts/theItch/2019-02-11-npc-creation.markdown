@@ -7,6 +7,8 @@ categories: theItch
 
 To save time and achive a consistent look, all of the NPC's override the player animation controller
 
+<!--more-->
+
 ## Concept
 
 I started the NPC design process by not so quickly sketching out 36 possible characters that I could possibly include in the main basophil town area. Trying to come up with unique hairstyles that still looked believable was probably the hardest part, but I really like how most of them turned out.
