@@ -18,9 +18,11 @@ email: dms7827@rit.edu
 description: >- # this means to ignore newlines until "baseurl:"
   RIT Game Design & Development and Psychology 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://DaneSherman.site" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danesherman.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Dazyn9
 github_username:  Dayn9
+
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
