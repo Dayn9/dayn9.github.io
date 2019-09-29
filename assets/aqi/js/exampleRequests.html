@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRequest xmlns="http://sscweb.gsfc.nasa.gov/schema">
+  <TimeInterval>
+    <Start>2014-01-01T20:00:00.000Z</Start>
+    <End>2014-01-02T00:00:00.000Z</End>
+  </TimeInterval>
+
+
+  <BFieldModel>
+    <InternalBFieldModel>IGRF-10</InternalBFieldModel>
+    <ExternalBFieldModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Tsyganenko89cBFieldModel">
+      <KeyParameterValues>KP3_3_3</KeyParameterValues>
+    </ExternalBFieldModel>
+    <TraceStopAltitude>100</TraceStopAltitude>
+  </BFieldModel>
+
+
+  <Satellites>
+    <Id>barrel2t</Id>
+    <ResolutionFactor>2</ResolutionFactor>
+  </Satellites>
+
+  <OutputOptions>
+    <AllLocationFilters>true</AllLocationFilters>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>X</Component>
+    </CoordinateOptions>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>Y</Component>
+    </CoordinateOptions>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>Z</Component>
+    </CoordinateOptions>
+    <MinMaxPoints>2</MinMaxPoints>
+  </OutputOptions>
+
+</DataRequest>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRequest xmlns="http://sscweb.gsfc.nasa.gov/schema">
+  <TimeInterval>
+    <Start>1997-08-25T17:48:00.000+0000</Start>
+    <End>2019-06-24T23:36:00.000+0000</End>
+  </TimeInterval>
+  <BFieldModel>
+    <InternalBFieldModel>IGRF-10</InternalBFieldModel>
+    <ExternalBFieldModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Tsyganenko89cBFieldModel">
+      <KeyParameterValues>KP3_3_3</KeyParameterValues>
+    </ExternalBFieldModel>
+    <TraceStopAltitude>100</TraceStopAltitude>
+  </BFieldModel>
+  <Satellites>
+    <Id>ace</Id>
+    <ResolutionFactor>2</ResolutionFactor>
+  </Satellites>
+  <OutputOptions>
+    <AllLocationFilters>true</AllLocationFilters>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>X</Component>
+    </CoordinateOptions>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>Y</Component>
+    </CoordinateOptions>
+    <CoordinateOptions>
+      <CoordinateSystem>Gse</CoordinateSystem>
+      <Component>Z</Component>
+    </CoordinateOptions>
+    <MinMaxPoints>2</MinMaxPoints>
+  </OutputOptions>
+</DataRequest>
