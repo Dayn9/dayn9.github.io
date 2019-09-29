@@ -1,0 +1,151 @@
+/*General*/
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #EAE1D0;
+}
+
+/*Navigation*/
+nav{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #E1C0A9;
+    margin: 0;
+    position: static;
+}
+nav a{
+    display: inline-block;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    background-color: #E1C0A9;
+    color: #294550;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'Primus-DEMO', sans-serif;
+}
+#current{
+    background-color: #403142;
+    border-radius: 5px;
+    color: #73978C;
+}
+nav a:hover, #current:hover{
+    background-color: #294550;
+    color:  #73978C;
+    border-radius: 5px;
+}
+
+/*Header*/
+header{
+    text-align: center;  
+    
+}
+h1{
+    font-size: 3em;
+    font-family: 'Primus-DEMO', sans-serif;
+    color: #73978C;
+    transition: 0.5s;
+}
+header p{
+    color: #403142;
+}
+
+/*Section*/
+section{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+    background-color: #E1C0A9;
+    color: #294550;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#title{
+    font-family: 'Primus-DEMO', sans-serif;
+    padding: 20px;
+    margin: 0;
+    font-size: 4em;
+    line-height: 1em;
+    display: block;
+}
+section a{
+    color: #73978C;
+}
+section a:visited{
+    color: #294550;
+}
+section a:hover{
+    color: #A63340;
+}
+section p{
+    text-indent: 2em;
+}
+section h3{
+    text-indent: 1em;
+}
+.rightImage, .largeImage{
+    display: block;
+    float: right;
+    margin: 5px;
+    border-radius: 5px;
+}
+.smallImage{
+    display: none;
+}
+
+.highlightGreen{
+    color: #73978C;
+    font-weight: 700;
+}
+.highlightRed{
+    color: #A63340;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 720px) {
+    section{
+        width: 85%;
+    } 
+    .rightImage{
+        float: none;
+    }
+    .largeImage{
+        display: none;
+    }
+    .smallImage{
+        display: block;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+
+}
+@media only screen and (max-width: 560px) {
+    section{
+        width: 90%;
+    }
+    nav{
+        padding: 0;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    nav a{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+    #title{
+        text-align: center;
+        margin: auto;
+    }
+    h1{
+        font-size: 2em;
+    }
+}
