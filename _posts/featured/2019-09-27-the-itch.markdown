@@ -4,13 +4,16 @@ title:  "The Itch"
 date:   2019-09-27 11:15:33 -0400
 categories: [featured, projects]
 ---
+
+![H]({{site.url}}/media/TheItch/Flower10x.png){:.preview_image}
 The Itch is a 2D platformer was a year long personal project that I developed with Magic Spell Studios using Unity 2D and C#
+
+<!--more-->
 
 <figure>
 <iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
 </figure>
 
-<!--more-->
 
 ## Development Features
 
@@ -35,4 +38,4 @@ with smooth color changes applied to sprites to distinguish elements and highlig
 
 |![Screenshot 1]({{site.url}}/media/TheItch/Screenshots/screenshot_large_01.png) |![Screenshot 2]({{site.url}}/media/TheItch/Screenshots/screenshot_large_02.png) | 
 |![Screenshot 3]({{site.url}}/media/TheItch/Screenshots/screenshot_large_03.png) |![Screenshot 4]({{site.url}}/media/TheItch/Screenshots/screenshot_large_04.png) |
-|![Screenshot 5]({{site.url}}/media/TheItch/Screenshots/screenshot_large_0.png) |![Screenshot 6]({{site.url}}/media/TheItch/Screenshots/screenshot_large_06.png) 
+|![Screenshot 5]({{site.url}}/media/TheItch/Screenshots/screenshot_large_05.png) |![Screenshot 6]({{site.url}}/media/TheItch/Screenshots/screenshot_large_06.png) 

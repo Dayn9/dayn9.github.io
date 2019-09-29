@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Atom"
+date:   2019-09-28 11:15:33 -0400
+categories:  projects
+---
+
+![H]({{site.url}}/media/Project/Atom/H.png){:.preview_image}
+
+An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#. 
+
+<!--more-->
+
+More coming soon...
+
+![Clorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)
+
