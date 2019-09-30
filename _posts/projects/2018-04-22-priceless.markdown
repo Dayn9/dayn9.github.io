@@ -15,9 +15,9 @@ Won First Place Overall, Best Narrative Design
 
 Priceless is about the morning commutes of a business man throughout his life as he tries to get to work on time in a busy, bustling city. 
 
-[Github](https://github.com/DakotaHerold/FindTheKindJam2018)
+<iframe src="https://itch.io/embed/243186" height="167" width="552" frameborder="0"></iframe>
 
-[Web build](https://dayn9.itch.io/priceless)
+[Github](https://github.com/DakotaHerold/FindTheKindJam2018)
 
 **Object Pooling Structure** researched and implemented to achieve scrolling and parallax effect
 

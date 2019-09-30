@@ -11,9 +11,9 @@ On a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealt
 
 <!--more-->
 
-[Github](https://github.com/Dayn9/StealthCooking)
+<iframe src="https://itch.io/embed/249096" height="167" width="552" frameborder="0"></iframe>
 
-[Web build](https://dayn9.itch.io/stealth-cooking)
+[Github](https://github.com/Dayn9/StealthCooking)
 
 [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking)
 

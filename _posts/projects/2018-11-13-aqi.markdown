@@ -6,7 +6,7 @@ categories: projects
 ---
 
 ![icon]({{site.url}}/media/class/staticmap.png){:.preview_image}
-Air Quality Search is aeb app that allows users to find air quality information about a given city. I made it for a clss using Javascript, JSON, Ajax, HTML, CSS.
+Air Quality Search is a web app that allows users to find air quality information about a given city. I made it for a clss using Javascript, JSON, Ajax, HTML, CSS.
 
 <!--more-->
 
