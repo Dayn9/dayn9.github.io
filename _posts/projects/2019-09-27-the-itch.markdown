@@ -5,7 +5,7 @@ date:   2019-09-27 11:15:33 -0400
 categories: [featured, projects]
 ---
 
-![H]({{site.url}}/media/TheItch/Flower10x.png){:.preview_image}
+![H]({{site.url}}/media/theItch/Flower10x.png){:.preview_image}
 The Itch is a 2D platformer was a year long personal project that I developed with Magic Spell Studios using Unity 2D and C#
 
 <!--more-->
@@ -27,7 +27,7 @@ applied to the Unity particle system to have particles converge on a point.
 
 **Object Pooling** structure implemented to create continuous fall zones that can be exited after a specified event
 
-![Dev]({{site.url}}/media/TheItch/Explosion.gif)
+![Dev]({{site.url}}/media/theItch/Explosion.gif)
 
 ## Design Features
 
@@ -36,6 +36,6 @@ with smooth color changes applied to sprites to distinguish elements and highlig
 
 **Designed and animated 2D pixel art** environments, charachters, and interface for classic handheld game feel
 
-|![Screenshot 1]({{site.url}}/media/TheItch/Screenshots/screenshot_large_01.png) |![Screenshot 2]({{site.url}}/media/TheItch/Screenshots/screenshot_large_02.png) | 
-|![Screenshot 3]({{site.url}}/media/TheItch/Screenshots/screenshot_large_03.png) |![Screenshot 4]({{site.url}}/media/TheItch/Screenshots/screenshot_large_04.png) |
-|![Screenshot 5]({{site.url}}/media/TheItch/Screenshots/screenshot_large_05.png) |![Screenshot 6]({{site.url}}/media/TheItch/Screenshots/screenshot_large_06.png) 
+|![Screenshot 1]({{site.url}}/media/theItch/Screenshots/screenshot_large_01.png) |![Screenshot 2]({{site.url}}/media/theItch/Screenshots/screenshot_large_02.png) | 
+|![Screenshot 3]({{site.url}}/media/theItch/Screenshots/screenshot_large_03.png) |![Screenshot 4]({{site.url}}/media/theItch/Screenshots/screenshot_large_04.png) |
+|![Screenshot 5]({{site.url}}/media/theItch/Screenshots/screenshot_large_05.png) |![Screenshot 6]({{site.url}}/media/theItch/Screenshots/screenshot_large_06.png) 

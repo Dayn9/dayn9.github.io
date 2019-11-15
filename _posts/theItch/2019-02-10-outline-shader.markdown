@@ -29,7 +29,7 @@ After that, it subtracts the rounded up alpha value of the current pixel. If the
 
 The only problem I had left was that the player filled the 16x16 sprite and there were no pixels to sample below his feet and above his head. This was solved by adding a pixel of transparent padding to make the sprite 18x18. 
 
-![Result]({{site.url}}/media/TheItch/Outline.gif)
+![Result]({{site.url}}/media/theItch/Outline.gif)
 
 ## Unedited Shader (Update Soon?)
 

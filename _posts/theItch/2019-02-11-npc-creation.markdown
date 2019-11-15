@@ -15,7 +15,7 @@ I started the NPC design process by not so quickly sketching out 36 possible cha
 
 I made sure to include some characters that fit the specific roles that I needed in the game
 
-![36 characters]({{site.url}}/media/TheItch/CharWall10x.png)
+![36 characters]({{site.url}}/media/theItch/CharWall10x.png)
 
 After drawing out the concepts I picked out the ones that I thought would best fit into the game world and be distinct from one another. 
 
@@ -29,13 +29,13 @@ The amount of animation given to a character was based on the amount of movement
 * Characters that walk back and forth are given a running animation
 * Any special animations are also done 
 
-![Priest Spritesheet]({{site.url}}/media/TheItch/PriestBase2.png)
+![Priest Spritesheet]({{site.url}}/media/theItch/PriestBase2.png)
 
 ## Unity Animator
 
 With the original player animations, I created a base NPC [Animator Controller](https://docs.unity3d.com/Manual/Animator.html) which receives the same parameters as the player controller but has simplified transitions. I then used [Animation Override Controllers](https://docs.unity3d.com/Manual/AnimatorOverrideController.html) for each of the NPC's to override the necessary animations for each character. This saved a lot of time setting up animators and was easily tested by giving the player the Override Controller. 
 
-![Boppin]({{site.url}}/media/TheItch/Boppin.gif)
+![Boppin]({{site.url}}/media/theItch/Boppin.gif)
 
 ## Not Mario
-![not mario]({{site.url}}/media/TheItch/notMario.png)
+![not mario]({{site.url}}/media/theItch/notMario.png)
