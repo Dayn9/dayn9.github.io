@@ -2,6 +2,7 @@
 layout: post
 title:  "Lab Rat"
 date:   2018-12-19 11:15:33 -0400
+tags: [js, PIXI.js, html, css] 
 categories: projects
 ---
 

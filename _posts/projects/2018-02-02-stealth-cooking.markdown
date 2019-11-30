@@ -2,6 +2,7 @@
 layout: post
 title:  "Stealth Cooking"
 date:   2018-04-23 11:15:33 -0400
+tags: [C#, Unity, Audacity]
 categories: projects
 ---
 

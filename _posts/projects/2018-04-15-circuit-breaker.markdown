@@ -2,6 +2,7 @@
 layout: post
 title:  "Curcuit Breaker"
 date:   2018-04-15 11:15:33 -0400
+tags: [Photoshop, After Effects, Unity]
 categories: projects
 ---
 

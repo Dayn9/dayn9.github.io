@@ -2,6 +2,7 @@
 layout: post
 title:  "Custodiman"
 date:   2017-11-09 11:15:33 -0400
+tags: [Pyxel Edit, Photoshop, Unity]
 categories: projects
 ---
 

@@ -9,11 +9,9 @@ layout: home
 
 <img class = "profile_image" src="/media/1024profile.jpg" alt = "profile">
 
-> Hi! I'm Dane, a double major at RIT studying Game Design & Development and Psychology.
-
-> I love Game Jams and Gluten Free pancakes.
-
-> I'm interested in developing educational games and am currently working on a mobile game about Atoms.
+Hi! I'm Dane, a double major at RIT studying Game Design & Development and Psychology.
+I love Game Jams and Gluten Free pancakes.
+I'm interested in developing educational games and am currently working on a mobile game about Atoms.
 
 </div>
 ---

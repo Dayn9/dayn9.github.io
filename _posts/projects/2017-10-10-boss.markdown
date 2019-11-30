@@ -2,6 +2,7 @@
 layout: post
 title:  "Boss"
 date:   2017-10-10 11:15:33 -0400
+tags: [Gamemaker]
 categories: projects
 ---
 
