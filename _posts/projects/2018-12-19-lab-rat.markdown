@@ -4,9 +4,9 @@ title:  "Lab Rat"
 date:   2018-12-19 11:15:33 -0400
 tags: [js, PIXI.js, html, css] 
 categories: projects
+image: /media/class/Needle.png
 ---
 
-![icon]({{site.url}}/media/class/Needle.png){:.preview_image}
 Lab rat is a game about avoiding lab experiments made for a web development class using PIXI.js, javascript, html, and some css
 
 <!--more-->

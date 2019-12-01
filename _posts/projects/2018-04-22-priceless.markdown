@@ -4,9 +4,8 @@ title:  "Priceless"
 date:   2018-04-22 11:15:33 -0400
 tags: [C#, Unity]
 categories: projects
+image: /media/Jam/BusinessMan_Portrait.png
 ---
-
-![icon]({{site.url}}/media/Jam/BusinessMan_Portrait.png){:.preview_image}
 
 I worked as Systems Programmer on a team of 5 using Unity and C# during the [iThrive](http://ithrivegames.org/) Game Jam at RIT.
 

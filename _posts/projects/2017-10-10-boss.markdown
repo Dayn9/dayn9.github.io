@@ -4,9 +4,8 @@ title:  "Boss"
 date:   2017-10-10 11:15:33 -0400
 tags: [Gamemaker]
 categories: projects
+image: /media/Project/Boss/face.png
 ---
-
-![icon]({{site.url}}/media/Project/Boss/face.png){:.preview_image}
 
 Small game about taking down some turrets and a final boss made in Gamemaker studio I made during my first semester at RIT
 

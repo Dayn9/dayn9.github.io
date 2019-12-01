@@ -4,9 +4,9 @@ title:  "Air Quality Search"
 date:   2018-11-13 11:15:33 -0400
 tags: [js, JSON, Ajax, HTML, CSS]
 categories: projects
+image: /media/class/staticmap.png
 ---
 
-![icon]({{site.url}}/media/class/staticmap.png){:.preview_image}
 Air Quality Search is a web app that allows users to find air quality information about a given city. I made it for a clss using Javascript, JSON, Ajax, HTML, CSS.
 
 <!--more-->

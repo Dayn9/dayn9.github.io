@@ -4,9 +4,8 @@ title:  "Stealth Cooking"
 date:   2018-04-23 11:15:33 -0400
 tags: [C#, Unity, Audacity]
 categories: projects
+image: /media/Jam/Doge.png
 ---
-
-![icon]({{site.url}}/media/Jam/Doge.png){:.preview_image}
 
 On a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking), I worked as a systems programmer and sound designer in Unity to make this game about midnight snacks
 

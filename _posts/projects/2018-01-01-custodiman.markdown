@@ -4,9 +4,8 @@ title:  "Custodiman"
 date:   2017-11-09 11:15:33 -0400
 tags: [Pyxel Edit, Photoshop, Unity]
 categories: projects
+image: /media/Jam/signposting.png
 ---
-
-![icon]({{site.url}}/media/Jam/signposting.png){:.preview_image}
 
 Custodiman is a 2D puzzle game abourt cleaing bathrooms I worked on for HeroJam at RIT with a team of 4 using Unity and Photoshop
 

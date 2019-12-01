@@ -4,9 +4,8 @@ title:  "Course Load"
 date:   2019-08-15 11:15:33 -0400
 tags: [C#, Unity, UI] 
 categories: [featured, projects]
+image: /media/Project/CourseLoad/CourseLoadLogo.png
 ---
-
-![icon]({{site.url}}/media/Project/CourseLoad/CourseLoadLogo.png){:.preview_image}
 
 Course Load is an android app for recording and managing homework assignments created using Unity's UI system and C#
 

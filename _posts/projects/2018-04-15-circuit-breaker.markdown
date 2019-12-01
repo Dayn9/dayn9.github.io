@@ -4,9 +4,9 @@ title:  "Curcuit Breaker"
 date:   2018-04-15 11:15:33 -0400
 tags: [Photoshop, After Effects, Unity]
 categories: projects
+image: /media/class/CircuitBreaker/c.png
 ---
 
-![icon]({{site.url}}/media/class/CircuitBreaker/c.png){:.preview_image} 
 Curcuit breaker is a game concept I drew and animtaed assets for in a 2D animation class using Photoshop and After Effects
 
 <!--more-->

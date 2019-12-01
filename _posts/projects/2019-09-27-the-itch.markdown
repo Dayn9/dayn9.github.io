@@ -4,9 +4,9 @@ title:  "The Itch"
 date:   2019-09-27 11:15:33 -0400
 tags: [C#, Unity, HLSL] 
 categories: [featured, projects]
+image: /media/theItch/Flower10x.png
 ---
 
-![H]({{site.url}}/media/theItch/Flower10x.png){:.preview_image}
 The Itch is a 2D platformer was a year long personal project that I developed with Magic Spell Studios using Unity 2D and C#
 
 <!--more-->

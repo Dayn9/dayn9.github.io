@@ -4,9 +4,8 @@ title:  "Atom"
 date:   2019-09-28 11:15:33 -0400
 tags: [C#, Unity] 
 categories:  projects
+image: /media/Project/Atom/H.png
 ---
-
-![H]({{site.url}}/media/Project/Atom/H.png){:.preview_image}
 
 An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#. 
 
