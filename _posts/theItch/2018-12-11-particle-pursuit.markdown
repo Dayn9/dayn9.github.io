@@ -28,12 +28,12 @@ See: [Unity ParticleSystem](https://docs.unity3d.com/ScriptReference/ParticleSys
 ### Regular 
 The regular emission is as simple as calling Play and Stop on the ParticleSystemwhen the mouse is being clicked. These particles are emitted from a circle at a random angle and collide with the player; this causes the subtle effect of the player pushing particles out of the way. The particles also fade in and out slightly and have a small noise function. All this is controlled in the inspector through the ParticleSystem Component 
 
-![Regular]({{sit.url}}/media/theItch/Regular.gif)
+![Regular]({{sit.url}}/media/TheItch/Regular.gif)
 
 ### Explosion 
 Identical to the Regular Emission but with a greater initial speed and a much stronger noise function. Emission and movement are controlled almost entirely through a script. 
 
-![Explosion]({{sit.url}}/media/theItch/Explosion.gif)
+![Explosion]({{sit.url}}/media/TheItch/Explosion.gif)
 
 ## How to Explode
 ### Fields related to the particle system
@@ -72,7 +72,7 @@ They both set `sending = true` and emit particles `part.Emit(minNum * particleMu
 
 See: [Unity ParticleSystem.Emit()](https://docs.unity3d.com/ScriptReference/ParticleSystem.Emit.html)
 
-![Run]({{sit.url}}/media/theItch/Run.gif)
+![Run]({{sit.url}}/media/TheItch/Run.gif)
 
 ### Update
 #### Setup 

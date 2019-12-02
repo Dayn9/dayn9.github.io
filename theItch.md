@@ -41,7 +41,7 @@ Over the next week of so I'll be updating the documentationa and design document
 
 # Milestone 1: Minimum Viable Product
 
-![]({{site.url}}/media/theItch/theItchScreenshot.png)
+![]({{site.url}}/media/TheItch/theItchScreenshot.png)
 
 This project started all the way back in June when I decided to make a platformer using my own physics system in Unity 2D. Four months and several refactors later and the physics system I created turned into the basis for 'The Itch'. As the physics system grew in complexity so did the artistic style and narrative of the game, and gradually features were added to create a vertical slice of what I eventaully hope to create. From mapping a text string to an image display to coordinating a dynamic event system, it's been a hectic few months and I can't wait to keep working.
 
