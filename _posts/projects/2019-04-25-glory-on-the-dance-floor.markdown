@@ -2,7 +2,7 @@
 layout: post
 title:  "Glory on the Dance Floor"
 date:   2019-04-25 11:15:33 -0400
-tags: [Illustrator] 
+tags: [Illustrator, BoardGame] 
 categories:  projects
 image: /media/class/Glory/God.png
 ---
