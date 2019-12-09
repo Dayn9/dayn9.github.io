@@ -13,5 +13,6 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 
 More coming soon...
 
-![Clorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)
+![[Clorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)]
 
+![Periodic Table]({{site.url}}/media/Project/Atom/PeriodicTable.png)
