@@ -11,10 +11,7 @@ The Itch is a 2D platformer was a year long personal project that I developed wi
 
 <!--more-->
 
-<figure>
-<iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
-</figure>
-
+![Full map]({{site.url}}/media/TheItch/After.png)
 
 ## Development Features
 
@@ -36,6 +33,10 @@ applied to the Unity particle system to have particles converge on a point.
 with smooth color changes applied to sprites to distinguish elements and highlight player actions
 
 **Designed and animated 2D pixel art** environments, charachters, and interface for classic handheld game feel
+
+<figure>
+<iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
+</figure>
 
 |![Screenshot 1]({{site.url}}/media/TheItch/Screenshots/screenshot_large_01.png) |![Screenshot 2]({{site.url}}/media/TheItch/Screenshots/screenshot_large_02.png) | 
 |![Screenshot 3]({{site.url}}/media/TheItch/Screenshots/screenshot_large_03.png) |![Screenshot 4]({{site.url}}/media/TheItch/Screenshots/screenshot_large_04.png) |
