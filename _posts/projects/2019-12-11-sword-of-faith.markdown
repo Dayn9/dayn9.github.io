@@ -2,12 +2,12 @@
 layout: post
 title:  "Glory on the Dance Floor"
 date:   2019-12-11 11:15:33 -0400
-tags: [Illustrator, BoardGame] 
+tags: [Illustrator, Unity, C#] 
 categories:  WIP
 image: /media/class/Glory/God.png
 ---
 
-A competitive card game about dance battles with greek monsters and gods that I worked on with a team of 5 for a Game Design class
+2 player cooperation game about 
 
 <!--more-->
 

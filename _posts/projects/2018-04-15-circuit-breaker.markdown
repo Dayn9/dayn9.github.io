@@ -7,7 +7,7 @@ categories: projects
 image: /media/class/CircuitBreaker/c.png
 ---
 
-Curcuit breaker is a game concept I drew and animtaed assets for in a 2D animation class using Photoshop and After Effects
+Game concept with an animated cutscene. I drew and animtaed assets in a 2D animation class using Photoshop and After Effects which I then compiled into a Unity project
 
 <!--more-->
 

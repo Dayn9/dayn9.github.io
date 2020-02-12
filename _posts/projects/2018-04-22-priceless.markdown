@@ -7,7 +7,7 @@ categories: projects
 image: /media/Jam/BusinessMan_Portrait.png
 ---
 
-I worked as Systems Programmer on a team of 5 using Unity and C# during the [iThrive](http://ithrivegames.org/) Game Jam at RIT.
+2D endless runner about making it to work on time. I programmed the parallax and chunking system on a team of 5 using Unity and C# during the 2018 [iThrive](http://ithrivegames.org/) Game Jam at RIT.
 
 Won First Place Overall, Best Narrative Design
 

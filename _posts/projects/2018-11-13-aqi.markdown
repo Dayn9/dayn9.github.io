@@ -7,7 +7,7 @@ categories: projects
 image: /media/class/staticmap.png
 ---
 
-Air Quality Search is a web app that allows users to find air quality information about a given city. I made it for a clss using Javascript, JSON, Ajax, HTML, CSS.
+Web app that allows users to find air quality information about a given city. I made it for a clss using Javascript, JSON, Ajax, HTML, CSS.
 
 <!--more-->
 

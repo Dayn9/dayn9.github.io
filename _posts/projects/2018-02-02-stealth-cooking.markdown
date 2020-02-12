@@ -7,7 +7,7 @@ categories: projects
 image: /media/Jam/Doge.png
 ---
 
-On a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking), I worked as a systems programmer and sound designer in Unity to make this game about midnight snacks
+2D Stealth Cooking game about sneaking downstains for a midnight snack. I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
 
 <!--more-->
 

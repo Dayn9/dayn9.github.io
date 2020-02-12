@@ -7,7 +7,7 @@ categories: projects
 image: /media/Jam/signposting.png
 ---
 
-Custodiman is a 2D puzzle game abourt cleaing bathrooms I worked on for HeroJam at RIT with a team of 4 using Unity and Photoshop
+2D puzzle game abourt cleaing bathrooms I worked on for HeroJam at RIT with a team of 4 using Unity and Photoshop. Our theme was everyday heros
 
 <!--more-->
 

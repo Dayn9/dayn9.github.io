@@ -7,7 +7,7 @@ categories: [featured, projects]
 image: /media/Project/CourseLoad/CourseLoadLogo.png
 ---
 
-Course Load is an android app for recording and managing homework assignments created using Unity's UI system and C#
+An android app for recording and managing homework assignments created using Unity's UI system and C#. I use this app daily to manage keep all my upcoming assignments in one place
 
 <!--more-->
 

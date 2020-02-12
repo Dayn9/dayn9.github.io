@@ -7,7 +7,7 @@ categories:  projects
 image: /media/class/Glory/God.png
 ---
 
-A competitive card game about dance battles with greek monsters and gods that I worked on with a team of 5 for a Game Design class
+A competitive card game about dance battles with greek monsters and gods that I worked on with a team of 5 for a Game Design class. 
 
 <!--more-->
 

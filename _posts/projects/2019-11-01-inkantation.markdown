@@ -18,8 +18,8 @@ I also developed our physical UI menu system
 
 ## Screenshots
 
-![Screenshot1]({{site.url}}/media/class/Ink/Screenshot1.png)
-![Screenshot2]({{site.url}}/media/class/Ink/Screenshot2.png)
-![Screenshot3]({{site.url}}/media/class/Ink/Screenshot3.png)
-![Screenshot4]({{site.url}}/media/class/Ink/Screenshot4.png)
-![Screenshot5]({{site.url}}/media/class/Ink/Screenshot5.png)
+![Screenshot1]({{site.url}}/media/class/Ink/Screenshot1.PNG)
+![Screenshot2]({{site.url}}/media/class/Ink/Screenshot2.PNG)
+![Screenshot3]({{site.url}}/media/class/Ink/Screenshot3.PNG)
+![Screenshot4]({{site.url}}/media/class/Ink/Screenshot4.PNG)
+![Screenshot5]({{site.url}}/media/class/Ink/Screenshot5.PNG)

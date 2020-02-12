@@ -7,7 +7,7 @@ categories: projects
 image: /media/class/Needle.png
 ---
 
-Lab rat is a game about avoiding lab experiments made for a web development class using PIXI.js, javascript, html, and some css
+Game about avoiding lab experiments I made for a web development class. For this I programmed a smooth grid movement system and animations to telegraph incoming traps.
 
 <!--more-->
 

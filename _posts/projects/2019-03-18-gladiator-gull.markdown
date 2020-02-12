@@ -7,7 +7,7 @@ image: /media/Jam/Gull/Gull.png
 categories: projects
 ---
 
-Galdiator Gull is a 2-player competitive game based around setting traps and swapping play fields made for [brick hack V](https://devpost.com/software/gladiator-gull) at RIT.
+2-player competitive game based around setting traps and swapping play fields made for [brick hack V](https://devpost.com/software/gladiator-gull) at RIT. I worked as an artist/animator on a team of 3 to make all the sprites and UI
 
 <!--more-->
 

@@ -7,7 +7,7 @@ categories:  projects
 image: /media/class/Tower/BloodStone.png
 ---
 
-Towers of Lumeth is a 2-5 player competitive board game based around collecting resources in order to craft a deadly final spell and win while attempting to deduce your opponent's final spell and block them. 
+2-5 player competitive board game based around collecting resources and crafting spell while trying to deduce what spells your opponents are crafting. I worked on a team of 5 to help produce and playtest this game.
 
 <!--more-->
 
