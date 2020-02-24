@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Course Load"
-date:   2019-08-15 11:15:33 -0400
+date:   2020-01-25 11:15:33 -0400
 tags: [C#, Unity, UI] 
 categories: [featured, projects]
 image: /media/Project/CourseLoad/CourseLoadLogo.png
@@ -11,8 +11,30 @@ An android app for recording and managing homework assignments created using Uni
 
 <!--more-->
 
-![Main Scree]({{site.url}}/media/Project/CourseLoad/main.jpg) |![Create Screen]({{site.url}}/media/Project/CourseLoad/creation.jpg) |![Color Screen]({{site.url}}/media/Project/CourseLoad/color.jpg)|
+## Initial Design
+
+I started by creating a quick markup of all the main components and features I wanted to include
+
+![Design]({{site.url}}/media/Project/CourseLoad/CourseloadDesign.png) 
+
+## Version 1
+
+For the first version I focused on getting the core lifetime of an assignment down. This included creating, editing, and removing the assignment. 
+
+I was also able to add in better designs for editing class colors and selecting a day of the month.
+
+![Main Screen]({{site.url}}/media/Project/CourseLoad/main.jpg) |![Create Screen]({{site.url}}/media/Project/CourseLoad/creation.jpg) |![Color Screen]({{site.url}}/media/Project/CourseLoad/color.jpg)|
 **Main screen** displays all active assignemts in scrollable list|**Create screen** is used to create or edit assignments with name, date, and class|**Color screen** is used to update class names and color labels|
+
+## Version 2
+
+For the second version I added some additional features like the animated menu and icons as well as a count for the number of assignments per class.
+
+I also added drop shadows to create more visual separation
+
+|![Main Scree]({{site.url}}/media/Project/CourseLoad/Screenshot_Main.jpg) |![Task Screen]({{site.url}}/media/Project/CourseLoad/Screenshot_Task.jpg)|
+|![Color Screen]({{site.url}}/media/Project/CourseLoad/Screenshot_Color.jpg)|![Info Screen]({{site.url}}/media/Project/CourseLoad/Screenshot_Info.jpg)
+|![Static Menu]({{site.url}}/media/Project/CourseLoad/Screenshot_Menu.jpg)|
 
 [Github Project](https://github.com/Dayn9/CourseLoad)
 
