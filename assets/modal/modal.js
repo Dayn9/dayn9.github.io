@@ -4,7 +4,7 @@ var modalImg = document.getElementById("modal-image");
 var captionText = document.getElementById("modal-caption");
 
 // Get the image and insert it inside the modal
-var images = document.getElementsByClassName("modal-trigger");
+var images = document.getElementsByTagName("IMG");
 
 let showModal = function(){
   modal.style.display = "block";

@@ -15,5 +15,5 @@ Small game about taking down some turrets and a final boss made in Gamemaker stu
 
 ## Screenshots
 
-| ![Screenshot]({{site.url}}/media/Project/Boss/boss.png) | ![Screenshot]({{site.url}}/media/Project/Boss/boss2.png) |
+| ![Starting configuration of the game with all gates active]({{site.url}}/media/Project/Boss/boss.png) | ![Once all the turrets are destroyed the player is locked into the final boss room]({{site.url}}/media/Project/Boss/boss2.png) |
 
