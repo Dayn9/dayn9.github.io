@@ -17,7 +17,10 @@ let hideModal = function(){
 }
 
 for (let i = 0; i < images.length; i++) {
-    images[i].onclick = showModal;
+  images[i].onclick = showModal;
+  if(images[i].classList.contains("preview_image")){
+    //TODO ignore and setup link   
+  }
 }
 
 // Get the <span> element that closes the modal
