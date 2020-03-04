@@ -16,6 +16,10 @@ A Game about convincing a town that the End of the world is coming. I've primari
 ![Car]({{site.url}}/media/Project/EndIsNear/Car4.png)
 ![Truck]({{site.url}}/media/Project/EndIsNear/truck4.png)
 
+## Icons
+
+![Icons]({{site.url}}/media/Project/EndIsNear/Icons4.png)
+
 ## Some Building art
 
 ![Town Hall]({{site.url}}/media/Project/EndIsNear/TownHall.png)

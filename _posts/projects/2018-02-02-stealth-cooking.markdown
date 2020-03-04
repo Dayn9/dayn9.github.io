@@ -7,7 +7,7 @@ categories: projects
 image: /media/Jam/Doge.png
 ---
 
-2D Stealth Cooking game about sneaking downstains for a midnight snack. I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
+2D Stealth Cooking game about sneaking downstairs for a midnight snack. I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
 
 <!--more-->
 
@@ -17,7 +17,7 @@ image: /media/Jam/Doge.png
 
 [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking)
 
-**Visual sound output** system created inin C# to display sounds based on volume to accurately convey the impact of making certian noises
+**Visual sound output** system created in C# to display sounds based on volume to accurately convey the impact of making certain noises
 
 **Recorded and Edited SFX** with Audacity to create immersive environment
 

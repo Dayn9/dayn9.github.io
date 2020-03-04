@@ -13,7 +13,7 @@ Game about avoiding lab experiments I made for a web development class. For this
 
 In Lab Rat you play as **Subject #171** a rat trying to survive the experiments of a research scientist by quickly moving around your cage. The researcher tries tempts you with *treats, food, and water* while experimenting on you with *needles, electrical shocks, and chemicals*. How long can you survive? 
 
-### Contols
+### Controls
 | W : move up | A : move left | S : move down | D : move right |
 
 <section>

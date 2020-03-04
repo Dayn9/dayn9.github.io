@@ -11,9 +11,9 @@ image: /media/class/Glory/God.png
 
 <!--more-->
 
-I was the team lead for this project and was tasked with keeping our design document and rulesheet were up to date, as well as making sure everyone knew what they were working on and when it needed to get done
+I was the team lead for this project and was tasked with keeping our design document and rule-sheet were up to date, as well as making sure everyone knew what they were working on and when it needed to get done
 
-## Rulesheet
+## Rule-sheet
 
 ![R1]({{site.url}}/media/class/Glory/R1.png)
 ![R2]({{site.url}}/media/class/Glory/R2.png)

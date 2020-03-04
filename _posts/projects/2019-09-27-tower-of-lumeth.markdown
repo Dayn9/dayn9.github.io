@@ -7,11 +7,11 @@ categories:  projects
 image: /media/class/Tower/BloodStone.png
 ---
 
-2-5 player competitive board game based around collecting resources and crafting spell while trying to deduce what spells your opponents are crafting. I worked on a team of 5 to help produce and playtest this game.
+2-5 player competitive board game based around collecting resources and crafting spell while trying to deduce what spells your opponents are crafting. I worked on a team of 5 to help produce and play-test this game.
 
 <!--more-->
 
-## Gameplay
+## Flow
 
 * Each player is assigned a final spell at the start of the game
 * To craft these final spells they must collect its base components from across the map and craft them into advanced resources
@@ -21,7 +21,7 @@ image: /media/class/Tower/BloodStone.png
 ![Board]({{site.url}}/media/class/Tower/Map.png)
 ![Crafting Sheet]({{site.url}}/media/class/Tower/Craft.jpg)
 
-## Rulesheet
+## Rule-sheet
 
 ![Page 1]({{site.url}}/media/class/Tower/P1.png)
 ![Page 2]({{site.url}}/media/class/Tower/P2.png)

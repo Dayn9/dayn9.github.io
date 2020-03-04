@@ -17,4 +17,4 @@ categories: projects
 
 ## Build, Swap, Survive, Repeat
 
-Each player starts by selecting and then placing a new obstacle on their half of the map. Then both players swith sides and try to survive whatever obstacles have been placed on the other side. If both players survive, they get to place new obstacles and repeat until someone runs out of lives
+Each player starts by selecting and then placing a new obstacle on their half of the map. Then both players switch sides and try to survive whatever obstacles have been placed on the other side. If both players survive, they get to place new obstacles and repeat until someone runs out of lives

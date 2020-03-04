@@ -15,24 +15,24 @@ A 2D platformer that I developed with Magic Spell Studios. It was a year long pe
 
 ## Development Features
 
-**[Custon 2D Physics]({{site.url}}/Theitch/2018/12/12/custom-physics.html)** 
+**[Custom 2D Physics]({{site.url}}/theitch/2018/12/12/custom-physics.html)** 
 using Unity C# features for smooth collisions and surface interactions 
 
-**C# Event system** used for object interaction to create multiple effects from a single action and drive gameplay.
+**C# Event system** used for object interaction to create multiple effects from a single action and drive game-play.
 
-**[Seeking Algorithm]({{site.url}}/Theitch/2018/12/11/particle-pursuit.html)** 
+**[Seeking Algorithm]({{site.url}}/theitch/2018/12/11/particle-pursuit.html)** 
 applied to the Unity particle system to have particles converge on a point. 
 
 **Object Pooling** structure implemented to create continuous fall zones that can be exited after a specified event
 
-![Dev]({{site.url}}/media/TheItch/Explosion.gif)
+![Explosion]({{site.url}}/media/TheItch/Explosion.gif)
 
 ## Design Features
 
-**[Outline Shader]({{site.url}}/Theitch/2019/02/10/outline-shader.html)**
+**[Outline Shader]({{site.url}}/theitch/2019/02/10/outline-shader.html)**
 with smooth color changes applied to sprites to distinguish elements and highlight player actions
 
-**Designed and animated 2D pixel art** environments, charachters, and interface for classic handheld game feel
+**Designed and animated 2D pixel art** environments, characters, and interface for classic handheld game feel
 
 <figure>
 <iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>

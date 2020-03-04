@@ -24,7 +24,7 @@ For the first version I focused on getting the core lifetime of an assignment do
 I was also able to add in better designs for editing class colors and selecting a day of the month.
 
 ![Main Screen]({{site.url}}/media/Project/CourseLoad/main.jpg) |![Create Screen]({{site.url}}/media/Project/CourseLoad/creation.jpg) |![Color Screen]({{site.url}}/media/Project/CourseLoad/color.jpg)|
-**Main screen** displays all active assignemts in scrollable list|**Create screen** is used to create or edit assignments with name, date, and class|**Color screen** is used to update class names and color labels|
+**Main screen** displays all active assignments in scrolling list|**Create screen** is used to create or edit assignments with name, date, and class|**Color screen** is used to update class names and color labels|
 
 ## Version 2
 
