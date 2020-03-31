@@ -1,0 +1,135 @@
+---
+layout: post
+title:  "Betrayal"
+date:   2020-03-31 11:15:33 -0400
+tags: [C#, Unity, PyxelEdit] 
+categories: [projects]
+image: /media/Project/Betrayal/PlayerIcon4.png
+---
+
+Short game about the Grim reaper and his dog I used to experiment with Autonomous Agents. 
+
+<!--more-->
+
+<iframe frameborder="0" src="https://itch.io/embed/591493?border_width=0&amp;bg_color=ffffff&amp;fg_color=ffffff&amp;link_color=ff1153&amp;border_color=333333" width="550" height="165"><a href="https://dayn9.itch.io/betrayal">Betrayal by dayn9</a></iframe>
+
+## Animation
+
+Using Pyxel Edit I made some simple animations for the all the characters in the game. 
+I especially focused on making the dog as friendly and expressive as possible to give it personality and keep the player attached.
+
+![Player]({{site.url}}/media/Project/Betrayal/player4.png)
+
+## State Machines and Coroutines
+
+All of the characters types in the game use state machines and coroutines to drive multiple behaviors.
+Below is a sample form the Person class that runs away from Grim but not when the friendly dog is nearby
+
+{% highlight c#%}
+
+public PersonState State
+{
+    get { return state; }
+    set
+    {
+        state = value;
+        StopAllCoroutines();
+        switch (state)
+        {
+            case PersonState.IDLE:
+                StartCoroutine(Idle());
+                break;
+            case PersonState.FLEE:
+                StartCoroutine(Flee());
+                StartCoroutine(StayInFrame());
+                break;
+            case PersonState.DEATH:
+                StartCoroutine(Death());
+                break;
+        }
+    }
+}
+
+/// <summary>
+/// Idle while player is far away or dog is close
+/// </summary>
+/// <returns></returns>
+private IEnumerator Idle()
+{
+    Vector2 diffPlayer;
+    Vector2 diffDog = Vector2.zero;
+    do
+    {
+        yield return new WaitForEndOfFrame();
+        
+        //get difference to player
+        diffPlayer = transform.position - Characters.player.transform.position;
+        
+        //get difference to dog
+        if(Characters.dog != null)
+            diffDog = transform.position - Characters.dog.transform.position;
+
+    //loop while player is far away OR dog is close
+    } while (diffPlayer.sqrMagnitude > FLEE_DIST * FLEE_DIST || 
+             (Characters.dog != null && diffDog.sqrMagnitude < Dog.CLOSE_DIST * Dog.CLOSE_DIST));
+    
+    //player is close AND dog is not close
+    State = PersonState.FLEE;
+}
+{% endhighlight %}
+
+## Flock of Chickens
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working on a short game about the Grim reaper and a dog to practice writing autonomous agents and drawing pixel chickens<a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/pixelart?src=hash&amp;ref_src=twsrc%5Etfw">#pixelart</a> <a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://t.co/qXghEfCK7F">pic.twitter.com/qXghEfCK7F</a></p>&mdash; Dane Sherman (@dazyn9) <a href="https://twitter.com/dazyn9/status/1231318442923393031?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Getting the chickens to flock together while keeping them autonomous was one of the biggest challenges I had to tackle. 
+What I ended up on is this Coroutine that Seek chickens that are far away and transitions to FLEE when the player or dog gets close. 
+This keeps each of the chicken independent so that some can flock and regroup while others flee
+
+{% highlight c#%}
+/// <summary>
+/// Flock while the dog and player are far away and not near a chicken
+/// </summary>
+/// <returns></returns>
+protected virtual IEnumerator Flock()
+{
+    Vector2 diffPlayer;
+    Vector2 diffDog;
+    do
+    {
+        yield return new WaitForEndOfFrame();
+        movement.Input = Vector2.zero;
+        //loop over all the other chicken
+        Vector2 diffChicken;
+        foreach(Chicken chicken in Characters.chicken)
+        {
+            if (chicken.Equals(this)) continue; //skip self 
+            //check if the chicken is close
+            diffChicken = transform.position - chicken.transform.position;
+            if(diffChicken.sqrMagnitude < CLOSE_DIST * CLOSE_DIST)
+            {
+                //Enter IDLE state 
+                movement.Input = Vector2.zero;
+                animator.SetFloat("Speed", 0);
+                State = ChickenState.IDLE;
+                break;
+            }
+            //check if the chicken is within flee distance
+            if (diffChicken.sqrMagnitude < FLEE_DIST * FLEE_DIST)
+            {
+                continue; //skip close-ish
+            }
+            //chicken is far away
+            movement.Seek(chicken.movement);
+        }
+        animator.SetFloat("Speed", movement.Speed);
+        diffPlayer = transform.position - Characters.player.transform.position;
+        diffDog = transform.position - Characters.dog.transform.position;
+    } while (diffPlayer.sqrMagnitude > FLEE_DIST * FLEE_DIST &&
+             diffDog.sqrMagnitude > FLEE_DIST * FLEE_DIST);
+    //Enter the FLEE state
+    movement.Input = Vector2.zero;
+    animator.SetFloat("Speed", 0);
+    State = ChickenState.FLEE;
+}
+{% endhighlight %}
