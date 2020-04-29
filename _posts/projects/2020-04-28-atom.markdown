@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Atom"
+date:   2020-04-28 11:15:33 -0400
+tags: [C#, Unity] 
+categories:  [featured, projects]
+image: /media/Project/Atom/H.png
+---
+
+An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#. 
+
+<!--more-->
+
+# Development Build
+
+<script src="{{site.url}}/assets/atom/Build/UnityLoader.js"></script>
+<script>
+    UnityLoader.instantiate("unityContainer", "{{site.url}}/assets/atom/Build/Atom.json");
+</script>
+<style>
+.unityContainer{
+    max-width:1480px;
+    max-height:720px;
+    width:auto;
+    height:auto;
+}
+</style>
+<div id="unityContainer" style="margin: auto"></div>
+
+<br> 
+
+# Initial Design
+
+The first version established some of the base behaviors up to the 3rd level in the periodic table
+
+![Chlorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)]
+
+![Periodic Table]({{site.url}}/media/Project/Atom/PeriodicTable.png)
+
+# Separation Complexity
+
+Improved Separation algorithm. Previously all of the possible 300+ particles in the Nucleus separated by looping over all the other particles. 
+
+{% highlight c#%}
+for (int i = 0, len = particles.Count; i < len; i++)
+{
+    //find the distance from origin
+    Vector3 diffOrgin = transform.position - particles[i].PhysicsObj.Position;
+    //calculate the force to center ( clamp is used so particles slow near center
+    Vector3 forceToCenter = Vector3.ClampMagnitude(diffOrgin.normalized * (PARTICLE_SPEED * scale), diffOrgin.magnitude);
+    particles[i].PhysicsObj.AddForce(forceToCenter);
+    for (int j = 0; j < i; j++)
+    {
+        //find the distance between particles
+        Vector3 diffOther = particles[i].PhysicsObj.Position - particles[j].PhysicsObj.Position;
+        //calculate the amount of overlap
+        float overlap = diffOther.magnitude - (particles[i].Radius ) - (particles[j].Radius );
+        //check if actually overlapping
+        if (overlap < 0)
+        {
+            //add force to seperate
+            Vector3 forceToSeperate = diffOther.normalized * overlap * PARTICLE_SPEED * scale;
+            //apply forces to the particles
+            particles[i].PhysicsObj.AddForce(-forceToSeperate);
+            particles[j].PhysicsObj.AddForce(forceToSeperate);
+        }
+    }
+}
+{% endhighlight %}
