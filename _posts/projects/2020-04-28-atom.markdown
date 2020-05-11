@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Atom"
-date:   2020-04-28 11:15:33 -0400
+date:   2020-05-10 11:15:33 -0400
 tags: [C#, Unity] 
 categories:  [featured, projects]
 image: /media/Project/Atom/H.png
@@ -12,11 +12,13 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 <!--more-->
 
 # Development Build
-
+<script src="{{site.url}}/assets/atom/TemplateData/UnityProgress.js"></script>
 <script src="{{site.url}}/assets/atom/Build/UnityLoader.js"></script>
 <script>
-    UnityLoader.instantiate("unityContainer", "{{site.url}}/assets/atom/Build/Atom.json");
+  var unityInstance = UnityLoader.instantiate("unityContainer", "{{site.url}}/assets/atom/Build/Atom.json", {onProgress: UnityProgress});
 </script>
+
+
 <style>
 .unityContainer{
     max-width:1480px;
@@ -26,20 +28,20 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 }
 </style>
 <div id="unityContainer" style="margin: auto"></div>
-
-<br> 
+<button onclick="unityInstance.SetFullscreen(1)">FullScreen</button>
 
 # Initial Design
 
 The first version established some of the base behaviors up to the 3rd level in the periodic table
 
-![Chlorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)]
+![Chlorine Atom]({{site.url}}/media/Project/Atom/Chlorine.jpg)
 
 ![Periodic Table]({{site.url}}/media/Project/Atom/PeriodicTable.png)
 
 # Separation Complexity
 
-Improved Separation algorithm. Previously all of the possible 300+ particles in the Nucleus separated by looping over all the other particles. 
+Improved Separation algorithm. Previously all of the possible 300+ particles in the Nucleus separated by looping over all the other particles.
+This new method cuts the time in half by applying the same separation force to 2 particles at the same time
 
 {% highlight c#%}
 for (int i = 0, len = particles.Count; i < len; i++)
@@ -67,3 +69,9 @@ for (int i = 0, len = particles.Count; i < len; i++)
     }
 }
 {% endhighlight %}
+
+# Outer Layers 
+
+The pattern I had established for adding electrons up to this point didn't resemble the physical mechanics of a real atom where electrons are often added to an energy level below the outer shell. Reworking this to mimic the s p d f block pattern of a real atom required employing quite a few recursive functions but the result was well worth the effort. 
+
+![Og Atom]({{site.url}}/media/Project/Atom/Og.png)

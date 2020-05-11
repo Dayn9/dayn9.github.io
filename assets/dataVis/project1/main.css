@@ -1,0 +1,58 @@
+/* MAIN CSS FILE FOR PROJECT */
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    min-width: 650px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: lightslategray;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+button:hover{
+    background-color: darkslategrey;
+    color:lightcyan;
+}
+
+section{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+}
+
+text{
+    font-size: 1.1em;
+    font-family: monospace; 
+}
+
+svg{
+    display: block;
+    margin: auto;
+}
+
+.label {
+    font-size: 1.5em;
+}

@@ -1,0 +1,98 @@
+/* MAIN CSS FILE FOR PROJECT */
+
+main {
+  margin: auto;
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5em;
+}
+
+text {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+body{
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 650px;
+  font-family: Verdana, sans-serif;
+
+  background-image: radial-gradient(whitesmoke, rgb(220, 225, 225));
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+}
+p{
+  font-size: 1em;
+}
+
+.buttons{
+  text-align: center;
+}
+
+button{
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: darkgoldenrod;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+button:hover{
+  background-color: darkred;
+}
+
+section{
+  padding: 10px;
+  margin: 20px;
+  border: 0px solid ;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+svg{
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 1.2em;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+
+path {
+  stroke: #000;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: center;						
+  padding: 10px;				
+  font: 16px sans-serif;		
+  background: whitesmoke;	
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  border: 0px;		
+  border-radius: 5px;			
+  pointer-events: none;			
+}

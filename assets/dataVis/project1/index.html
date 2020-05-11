@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Homework 1 - Educational Trends</title>
+    <meta charset="utf-8">
+    <!--<script src="https://d3js.org/d3.v5.min.js"></script>-->
+    <script src="d3.v5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <h1>Educational Trends</h1>
+    <h4>Dane Sherman</h4>
+
+    <p>The data set is from the UCL Machine Learning Repository and looks at a number of variables in relation to students first period, second period, and final grades.</p>
+
+    <p>Use these buttons to look at grades throughout the year:</p>
+    <div class="buttons">
+        <button id = "G1">First Period Grade</button>
+        <button id = "G2">Second Period Grade</button>
+        <button id = "GF">Final Grade</button>
+    </div>
+
+    <p>
+      A student's academic performance can have a great impact on the life they live after graduation and can also indicate how well an educational program is working.
+      Figuring out what works for student and how they learn best should be of great interest to both educators and students alike.      
+      What works for each individual student is different, but looking at overall trends can help us figure out better ways to help students learn. 
+    </p>
+
+    <section>
+    <h2>Study Time</h2>
+    <p>
+      The amount of time a student spends studying seems like it should be the most obvious indicator of student success. 
+    </p>
+    <svg id='chart1'></svg>
+    <p>
+      While there is a slight upwards trend, there isn't a huge difference in average grades as students study for more hours. 
+      This may be due to diminishing returns after long periods of studying, as evidence by '>10' hours averaging lower than '5 to 10' for the first and final grade. 
+    </p>
+    </section>
+
+    <section>
+      <h2>Heatmap responses</h2>
+      <p>
+        The presence of various other factors were measured to see if they had an affect on a student's academic performance. 
+        
+      </p>
+
+      <div class="buttons">
+        <button id = "B1">School Support</button>
+        <button id = "B2">Home Support</button>
+        <button id = "B3">Extra Paid Classes</button>
+        <button id = "B4">Extra-curricular Activities</button>
+        <button id = "B5">Attended Nursery</button>
+        <button id = "B6">Internet Access</button>
+        <button id = "B7">Romantic Relationship</button>
+      </div>
+      
+      <svg id='chart2'></svg>
+
+      <p>
+        Most of the factors had little noticeable effect on grades.
+        However, some of the factors did create some interesting or counterintuitive differences </p>
+      <h3>
+        School Support
+      </h3>
+      <p>
+        The greatest effect seems to come from School Support with most of the students indicated that they did not receive any extra academic support at school. 
+        Surprisingly, students who don't receive any of this school support seem to achieve better scores.
+        This is likely the case because students who are already doing well may not seek any extra support from the school.
+      </p>
+      <h3>
+        Home Support
+      </h3>
+      <p> 
+       Similar to the result for school support, student who don't receive extra academic support at home achieve better scores.
+       This is likely due to similar reasons as school support with support only being given to students who need it. 
+      </p>
+      <h3>
+        Extra-curricular Activities
+      </h3>
+      <p>
+        There was a fairly even number of responses for both 'yes' and 'no' which should represent both groups better.
+        While final grade appears to be independent of involvement in Extra-curriculars, during the first period it appears to have a slight positive effect.
+      </p>
+      <h3>
+        Internet Access
+      </h3>
+      <p>
+        Another factor that has a small but noticeable effect on scores appears to come from having Internet Access at home.
+        This may give students the ability to find alternate explanations for concepts they don't understand or communicate with classmates about homework.
+        It may also provide some distraction to students, but this doesn't appear to negatively impact student grades.
+      </p>
+      <h3>
+        Romantic Relationship
+      </h3>
+      <p>
+        Having a romantic Relationship was another student doesn't seem to effect student scores in during the first period, but the second period and final grade are negatively impacted by romantic relationships.
+        During the later parts of the year when more time is needed student may find themselves wanting to spend time with their partner rather than studying.
+      </p>
+    </section>
+
+      <p>
+        After looking at the data, it doesn't appear that one single factor seems has a huge impact on student's performance. 
+        Scores seem to increase when students study more, have internet access at home, participate in Extra-curriculars at the start of the year, and don't have a romantic Relationship.
+        It may be the case that a combination of these could yield the highest scores.
+      </p>
+      <p>
+        Further research could be done looking at what the best combinations of factors work best as there is likely interaction.
+        Impact on Test scores are also not the only thing to look at when considering these factors. 
+        It is likely the case that while something like a romantic relationship decreases test scores it increases student well-being.
+      </p>
+
+    <h4><a href = "https://www.kaggle.com/dipam7/student-grade-prediction"> Dataset from Kaggle</a></h4>
+
+    <p>P. Cortez and A. Silva. Using Data Mining to Predict Secondary School Student Performance. In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April, 2008, EUROSIS, ISBN 978-9077381-39-7.</p>
+    <p><a href="http://www3.dsi.uminho.pt/pcortez/student.pdf">Web Link</a></p>
+    <script src='./buttons.js'></script>
+    <script src='./chart1.js'></script>
+    <script src='./chart2.js'></script>
+    <script src='./main.js'></script>
+  </body>
+</html>
+

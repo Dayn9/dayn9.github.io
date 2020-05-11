@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Final Project: Dane Sherman</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="http://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="http://d3js.org/topojson.v2.min.js"></script>
+  </head>
+
+  <body>
+    <h1>2019 World Happiness Report</h1>
+    <h3>Dane Sherman</h3>
+    <section>
+      <p>
+        The Happiness scores and rankings are from the Gallup World Poll. 
+        Happiness scores were based on the Cantril ladder question where respondents are asked to think of a ladder where 10 is the best possible life for them and 0 is the worst.
+        Finland scores the highest with 7.769 while South Sudan scoring the lowest with 2.853
+      </p>
+    </section>
+    <svg id='chart'></svg>
+    <section>
+      <h4>Contributions to Happiness</h4>
+      <p>
+        A number of factors were measured in relation to 'Dystopia' a fake county that takes all of the lowest scores from each factor.
+        Below is the percentage of the Happiness that can be explained by each of the factors. 
+        Percentages are more helpful for picking out at trends as the relative scores are typically greater for countries that have higher total Happiness
+      </p>
+      <p> 
+        <strong>Residual</strong> refers to the unexplained contributions to the Happiness score.
+      </p>
+      <div class="buttons">
+        <button>GDP</button>
+        <button>Social</button>
+        <button>Health</button>
+        <button>Freedom</button>
+        <button>Generosity</button>
+        <button>Corruption</button>
+        <button>Residual</button>
+      </div>
+    </section>
+    <svg id='chart2'></svg>
+    <section>
+      <h4>Breakdown by Country</h4>
+      <p>
+        <strong>GDP</strong> appears to have a somewhat positive correlation with happiness. Countries where GDP has a larger positive effect are also happier.
+        <strong>Social Support</strong> has a stable relationship with happiness scores with most countries hover around 20 - 25%.
+        <strong>Corruption</strong> has a similarly consistent but low result (with the outlier of Rwanda) indicating that Corruption doesn't help to increase happiness
+      </p>
+    </section>
+    <svg id='chart3'></svg>
+    <section>
+      <p>
+        While a large portion of each countries happiness score is residual, GDP per captia, Social Support, and Healthy Life Expectancy seem to be the best predictors of happiness
+      </p>
+      <p>
+        <a href = "https://www.kaggle.com/unsdsn/world-happiness">Data Source on Kaggle</a>
+      </p>
+    </section>
+    <script src='./main.js'></script>
+  </body>
+  
+</html>
