@@ -9,6 +9,10 @@ image: /media/TheItch/Flower10x.png
 
 A 2D platformer that I developed with Magic Spell Studios. It was a year long personal project during which I took the game from basic platforming physics to a full steam release 
 
+<figure>
+<iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
+</figure>
+
 <!--more-->
 
 ![Full map]({{site.url}}/media/TheItch/After.png)
@@ -33,10 +37,6 @@ applied to the Unity particle system to have particles converge on a point.
 with smooth color changes applied to sprites to distinguish elements and highlight player actions
 
 **Designed and animated 2D pixel art** environments, characters, and interface for classic handheld game feel
-
-<figure>
-<iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
-</figure>
 
 |![Screenshot 1]({{site.url}}/media/TheItch/Screenshots/screenshot_large_01.png) |![Screenshot 2]({{site.url}}/media/TheItch/Screenshots/screenshot_large_02.png) | 
 |![Screenshot 3]({{site.url}}/media/TheItch/Screenshots/screenshot_large_03.png) |![Screenshot 4]({{site.url}}/media/TheItch/Screenshots/screenshot_large_04.png) |

@@ -11,11 +11,11 @@ image: /media/Jam/BusinessMan_Portrait.png
 
 Won First Place Overall, Best Narrative Design
 
+<iframe src="https://itch.io/embed/243186" height="167" width="552" frameborder="0"></iframe>
+
 <!--more-->
 
 Priceless is about the morning commutes of a business man throughout his life as he tries to get to work on time in a busy, bustling city. 
-
-<iframe src="https://itch.io/embed/243186" height="167" width="552" frameborder="0"></iframe>
 
 [Github](https://github.com/DakotaHerold/FindTheKindJam2018)
 

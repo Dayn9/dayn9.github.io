@@ -9,9 +9,10 @@ image: /media/Jam/Doge.png
 
 2D Stealth Cooking game about sneaking downstairs for a midnight snack. I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
 
-<!--more-->
-
 <iframe src="https://itch.io/embed/249096" height="167" width="552" frameborder="0"></iframe>
+
+
+<!--more-->
 
 [Github](https://github.com/Dayn9/StealthCooking)
 

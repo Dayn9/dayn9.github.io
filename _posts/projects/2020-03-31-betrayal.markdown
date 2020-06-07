@@ -9,9 +9,9 @@ image: /media/Project/Betrayal/PlayerIcon4.png
 
 Short game about the Grim reaper and his dog I used to experiment with Autonomous Agents. 
 
-<!--more-->
-
 <iframe frameborder="0" src="https://itch.io/embed/591493?border_width=0&amp;bg_color=ffffff&amp;fg_color=ffffff&amp;link_color=ff1153&amp;border_color=333333" width="550" height="165"><a href="https://dayn9.itch.io/betrayal">Betrayal by dayn9</a></iframe>
+
+<!--more-->
 
 ## Animation
 
