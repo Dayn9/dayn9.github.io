@@ -2,7 +2,7 @@
 layout: post
 title:  "User Interface"
 date:   2018-12-10 11:15:33 -0400
-categories: theItch
+categories: [docs, theItch]
 ---
 
 In order to get collected items to easily enter/exit the inventory, utilize the same background fade on UI and world objects, and maintain a consistent pixel size I decided to write my own UI anchors that could be utilized as child objects of the Main Camera. 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Custom Physics"
 date:   2018-12-12 11:15:33 -0400
-categories: theItch
+categories: [docs, theItch]
 ---
 
 Based off [Unity 2D Platformer Character Controller Tutorial](https://www.youtube.com/watch?v=wGI2e3Dzk_w&t=9s) but heavily modified for specific use

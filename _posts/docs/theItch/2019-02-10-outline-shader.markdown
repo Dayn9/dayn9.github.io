@@ -2,7 +2,7 @@
 layout: post
 title:  "Outline Shader"
 date:   2019-02-10 11:15:33 -0400
-categories: theItch
+categories: [docs, theItch]
 ---
 
 Outlines became a necessary feature when I started to include NPC's with similar skin tones into the game. The effect helped a lot with contrasting the player and other NPC's. 

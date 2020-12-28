@@ -2,7 +2,7 @@
 layout: post
 title:  "NPC Creation"
 date:   2019-02-11 11:15:33 -0400
-categories: theItch
+categories: [docs, theItch]
 ---
 
 To save time and achive a consistent look, all of the NPC's override the player animation controller

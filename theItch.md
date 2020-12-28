@@ -2,6 +2,7 @@
 layout: docs
 title: The Itch
 permalink: /theItch/
+category: theItch
 ---
 
 The Itch is a 2D platformer centered around using heart rate as a resource to make objects move, grow, and shoot in order to find a doctor who can cure a deadly virus. The path to the doctor is full of obstacles as you traverse cavernous environments filled with plant life and people.

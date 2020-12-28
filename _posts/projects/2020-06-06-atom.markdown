@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: docs
 title:  "Atom"
 date:   2020-06-06 11:15:33 -0400
 tags: [C#, Unity] 
 categories:  [featured, projects]
+category: atom 
 image: /media/Project/Atom/H.png
 ---
 
@@ -37,6 +38,7 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 <div id="unityContainer" style="margin: auto"></div>
 <button onclick="unityInstance.SetFullscreen(1)">FullScreen</button>
 web build may not scale well, intended for phone screens
+
 
 # Initial Design
 

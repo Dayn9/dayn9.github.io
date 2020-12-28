@@ -2,7 +2,7 @@
 layout: post
 title:  "Particle Pursuit"
 date:   2018-12-11 11:15:33 -0400
-categories: theItch
+categories: [docs, theItch]
 ---
 
 The explosion of particles that seek a point is probably the coolest effect in the game and was also one of the trickiest to figure out.
