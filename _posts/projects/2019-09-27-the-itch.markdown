@@ -13,6 +13,8 @@ A 2D platformer that I developed with Magic Spell Studios. It was a year long pe
 <iframe src="https://store.steampowered.com/widget/1095520/" frameborder="0" width="646" height="190"></iframe>
 </figure>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7s0-IFvXH_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!--more-->
 
 ![Full map]({{site.url}}/media/TheItch/After.png)

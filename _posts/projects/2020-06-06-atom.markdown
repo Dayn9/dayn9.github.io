@@ -13,11 +13,11 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 <!-- Play Store Link -->
 <a href='https://play.google.com/store/apps/details?id=com.Savvy.Atom&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class = 'appLink' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
-<!--more-->
-
 <figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/650zlhHFVjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VY5JD6I-dps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
+
+<!--more-->
 
 # Development Build
 
@@ -48,40 +48,8 @@ The first version established some of the base behaviors up to the 3rd level in 
 
 ![Periodic Table]({{site.url}}/media/Project/Atom/PeriodicTable.png)
 
-# Separation Complexity
+# First Release
 
-Improved Separation algorithm. Previously all of the possible 300+ particles in the Nucleus separated by looping over all the other particles.
-This new method cuts the time in half by applying the same separation force to 2 particles at the same time
-
-{% highlight c#%}
-for (int i = 0, len = particles.Count; i < len; i++)
-{
-    //find the distance from origin
-    Vector3 diffOrgin = transform.position - particles[i].PhysicsObj.Position;
-    //calculate the force to center ( clamp is used so particles slow near center
-    Vector3 forceToCenter = Vector3.ClampMagnitude(diffOrgin.normalized * (PARTICLE_SPEED * scale), diffOrgin.magnitude);
-    particles[i].PhysicsObj.AddForce(forceToCenter);
-    for (int j = 0; j < i; j++)
-    {
-        //find the distance between particles
-        Vector3 diffOther = particles[i].PhysicsObj.Position - particles[j].PhysicsObj.Position;
-        //calculate the amount of overlap
-        float overlap = diffOther.magnitude - (particles[i].Radius ) - (particles[j].Radius );
-        //check if actually overlapping
-        if (overlap < 0)
-        {
-            //add force to seperate
-            Vector3 forceToSeperate = diffOther.normalized * overlap * PARTICLE_SPEED * scale;
-            //apply forces to the particles
-            particles[i].PhysicsObj.AddForce(-forceToSeperate);
-            particles[j].PhysicsObj.AddForce(forceToSeperate);
-        }
-    }
-}
-{% endhighlight %}
-
-# Outer Layers 
-
-The pattern I had established for adding electrons up to this point didn't resemble the physical mechanics of a real atom where electrons are often added to an energy level below the outer shell. Reworking this to mimic the s p d f block pattern of a real atom required employing quite a few *recursive* functions but the result was well worth the effort. 
-
-![Og Atom]({{site.url}}/media/Project/Atom/Og.png)
+<figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/650zlhHFVjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>

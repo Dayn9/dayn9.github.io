@@ -3,7 +3,7 @@ layout: post
 title:  "Course Load"
 date:   2020-01-25 11:15:33 -0400
 tags: [C#, Unity, UI] 
-categories: [featured, projects]
+categories: [projects]
 image: /media/Project/CourseLoad/CourseLoadLogo.png
 ---
 
