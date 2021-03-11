@@ -2,7 +2,7 @@
 layout: post
 title:  "Inkantation"
 date:   2019-11-01 11:15:33 -0400
-tags: [Illustrator, Unity, C#] 
+tags: [Illustrator, Maya, Unity, C#] 
 categories:  projects
 image: /media/class/Ink/squid.png
 ---
