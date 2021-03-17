@@ -2,17 +2,21 @@
 layout: post
 title:  "Final Project"
 date:   2020-11-23 11:15:33 -0400
-categories: [blog, IGME470]
+tags: [Arduino]
+categories: projects
+image: /media/class/470/pmini.jpg
 ---
 
-Social Planter 
-Dylan Gomer and Dane Sherman
-
-Social Planter demonstrates our knowledge of digital and analog I/O, serial and network communication alongside physical design. We implement a social aspect to an otherwise solitary activity.
+Completed for IGME 470
 
 The social planter encourages individuals living in the city and other small apartments to have plants for fresh air combatting urban pollution. By monitoring the condition of plants the maintenance will be minimal, just water when directed to do so. Many find gardening lonely, but social planter allows for sharing results with your friends. Even if you are away or otherwise unable to care for your plants, their conditions will be accessible and shareable to friends for help. 
 
 <!--more-->
+
+Dylan Gomer and Dane Sherman
+
+Social Planter demonstrates our knowledge of digital and analog I/O, serial and network communication alongside physical design. We implemented a social aspect to an otherwise solitary activity.
+
 
 # Concept
 ![Concept]({{site.url}}/media/class/470/Concept.png)

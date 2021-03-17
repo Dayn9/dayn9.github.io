@@ -1,15 +1,21 @@
 ---
 layout: post
-title:  "Midterm - Water Bottle"
+title:  "Mood Bottle"
 date:   2020-09-28 11:15:33 -0400
-categories: [blog, IGME470]
+tags: [Arduino]
+categories: projects
+image: /media/class/470/bottlecap.png
 ---
+
+Completed for IGME 470
+
+The project is a prototype water bottle that lets you know when you haven't drunken water in a while. It's a simple silly concept that let us explore the Ardunio development process. 
+
+<!--more-->
 
 Benjamin Goldfeder: Mockups and Touch Sensor
 
 Dane Sherman: Capacitor and Documentation  
-
-<!--more-->
 
 ## Inspiration
 
