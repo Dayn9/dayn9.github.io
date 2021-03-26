@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Final Project"
+title:  "Social Planter"
 date:   2020-11-23 11:15:33 -0400
 tags: [Arduino]
 categories: projects

@@ -3,7 +3,7 @@ layout: post
 title:  "2019 World Happiness Report"
 date:   2020-04-25 11:15:33 -0400
 tags: [d3, js] 
-categories:  [featured, projects]
+categories:  projects
 image: /media/class/Map.png
 ---
 
