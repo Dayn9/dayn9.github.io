@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Video Gaming and Visual Attention"
+date:   2020-12-07 11:15:33 -0400
+tags: [Psychology] 
+categories:  projects
+image: /media/icon/download.png
+---
+
+Completed for PSYC 431 - Memory and Attention
+
+<!--more-->
+
+## Final Poster
+
+[Download (.pdf)]({{site.url}}/assets/psychessay/430_Final_DaneSherman.pdf)
+
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-01.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-02.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-03.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-04.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-05.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-06.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-07.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-08.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-09.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-10.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-11.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-12.png)
+![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-13.png)

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Gender Roles in DOTA2"
+date:   2019-04-01 11:15:33 -0400
+tags: [Psychology] 
+categories:  projects
+image: /media/icon/download.png
+---
+
+Completed for PSYC 226 - Developmental Psychology 
+
+<!--more-->
+
+## Final Poster
+
+[Download (.pdf)]({{site.url}}/media/psych/GenderRoles.pdf)
+
+![R1]({{site.url}}/media/psych/GenderRoles.png)

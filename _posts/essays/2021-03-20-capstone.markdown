@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Capstone in Psychology"
+date:   2021-03-20 11:15:33 -0400
+tags: [Psychology] 
+categories:  projects
+image: /media/icon/download.png
+---
+
+Completed for PSYC 501 / 510 
+Impact of Learner Interest on Active Learning Outcomes
+
+<!--more-->
+
+## Final Poster
+
+[Download (.pdf)]({{site.url}}/assets/psychessay/Capstone_DaneSherman.pdf)
+
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-01.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-02.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-03.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-04.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-05.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-06.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-07.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-08.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-09.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-10.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-11.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-12.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-13.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-14.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-15.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-16.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-17.png)
+![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-18.png)

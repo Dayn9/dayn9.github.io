@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Class Time and Length in Student Engagement"
+date:   2019-12-13 11:15:33 -0400
+tags: [Psychology] 
+categories:  projects
+image: /media/icon/download.png
+---
+
+Completed for PSYC 250 - Research Methods I
+
+<!--more-->
+
+## Final Essay
+
+[Download (.pdf)]({{site.url}}/assets/psychessay/250_Essay.pdf)
+
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-01.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-02.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-03.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-04.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-05.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-06.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-07.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-08.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-09.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-10.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-11.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-12.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-13.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-14.png)
+![page]({{site.url}}/media/psych/250_Essay/250_Essay-15.png)

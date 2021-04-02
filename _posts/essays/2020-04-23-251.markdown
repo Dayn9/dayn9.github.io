@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Student Personality and College Fit"
+date:   2020-04-23 11:15:33 -0400
+tags: [Psychology] 
+categories:  projects
+image: /media/icon/download.png
+---
+
+Completed for PSYC 251 - Research Methods II
+
+<!--more-->
+
+## Final Essay
+
+[Download (.pdf)]({{site.url}}/assets/psychessay/251_Final.pdf)
+
+![page]({{site.url}}/media/psych/251_Final/251_Final-01.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-02.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-03.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-04.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-05.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-06.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-07.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-08.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-09.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-10.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-11.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-12.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-13.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-14.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-15.png)
+![page]({{site.url}}/media/psych/251_Final/251_Final-16.png)
