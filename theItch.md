@@ -38,7 +38,6 @@ A demo build of The Itch was showcased on November 17th, 2018 at the Rochester M
 
 ![Rochester Mini Maker Faire]({{site.url}}/media/icon/Rochester_MF_Logo_long_border.png)
 
-
 All the features I wanted to have implemented before Winter break are now finished (a week early!). This should provide a good idea of what the final game will look like on a larger scale.
 
 Over the next week of so I'll be updating the documentationa and design document to match up with my current progress. I don't anticipate being able to do a lot over winter break, but I'm probably going to greybox some of the levels and keep updating the documentation.
@@ -53,22 +52,3 @@ This project started all the way back in June when I decided to make a platforme
   <a href="https://trello.com/b/McqO6zw9/the-itch">Trello Board</a>
 </blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
-
-# Videos
-
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pp79WsKan9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
-
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cOBQh5gg0SM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
-
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EjeRe3lvU30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
-
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DS6hRYigQfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
-

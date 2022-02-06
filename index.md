@@ -6,8 +6,9 @@ layout: home
 
 ![Profile Image](/media/Hello.jpg){: .profile_image}
 
-Hi! I'm Dane, a double major at RIT studying Game Design & Development and Psychology. I'm currently working as a student Developer through MAGIC Spell Studios on a stroke rehab game. Check out the 
-**[About]({{site.url}}/about/)** page for my resume or **[Projects]({{site.url}}/projects/)** to see what I do in my spare time.
+Hi! I'm Dane, a game developer passionate about educational games and training simulations. I primarily work with Unity / C#; check out **[Projects]({{site.url}}/projects/)** to see what I've been working on. 
+
+Check out the **[About]({{site.url}}/about/)** page for my resume and contact info. 
 
 </div>
 ---
