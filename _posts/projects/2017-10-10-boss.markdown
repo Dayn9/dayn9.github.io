@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Boss"
+description: "Small game about taking down some turrets and a final boss made in Gamemaker studio. I made this during my first semester at RIT"
 date:   2017-10-10 11:15:33 -0400
 tags: [Gamemaker]
 categories: projects
-image: /media/Project/Boss/face.png
+category: Personal
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Small game about taking down some turrets and a final boss made in Gamemaker studio. I made this during my first semester at RIT
 
 <!--more-->
 

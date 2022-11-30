@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Capstone in Psychology"
+description: "Completed for PSYC 501 / 510: Impact of Learner Interest on Active Learning Outcomes"
 date:   2021-03-20 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
-image: /media/icon/download.png
+category: Essay
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Completed for PSYC 501 / 510 
-Impact of Learner Interest on Active Learning Outcomes
 
 <!--more-->
 

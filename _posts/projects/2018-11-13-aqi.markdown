@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Air Quality Search"
+description: "Web app that allows users to find air quality information about a given city. I made it for a claSss using Javascript, JSON, Ajax, HTML, CSS."
 date:   2018-11-13 11:15:33 -0400
 tags: [js, JSON, Ajax, HTML, CSS]
 categories: projects
-image: /media/class/staticmap.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Web app that allows users to find air quality information about a given city. I made it for a claSss using Javascript, JSON, Ajax, HTML, CSS.
 
 <!--more-->
 

@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  "Priceless"
+description: "iThrive Game Jam 2018: a 2D endless runner about making it to work on time."
 date:   2018-04-22 11:15:33 -0400
 tags: [C#, Unity]
 categories: projects
-image: /media/Jam/BusinessMan_Portrait.png
+category: Personal
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
 2D endless runner about making it to work on time. I programmed the parallax and chunking system on a team of 5 using Unity and C# during the 2018 [iThrive](http://ithrivegames.org/) Game Jam at RIT.

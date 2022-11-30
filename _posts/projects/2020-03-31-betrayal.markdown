@@ -1,21 +1,25 @@
 ---
 layout: post
 title:  "Betrayal"
+description: "Short game about the Grim reaper and his dog I used to experiment with Autonomous Agents. "
 date:   2020-03-31 11:15:33 -0400
 tags: [C#, Unity, PyxelEdit] 
 categories: [projects]
 image: /media/Project/Betrayal/PlayerIcon4.png
+category: Personal
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Short game about the Grim reaper and his dog I used to experiment with Autonomous Agents. 
-
-<iframe frameborder="0" src="https://itch.io/embed/591493?border_width=0&amp;bg_color=ffffff&amp;fg_color=ffffff&amp;link_color=ff1153&amp;border_color=333333" width="550" height="165"><a href="https://dayn9.itch.io/betrayal">Betrayal by dayn9</a></iframe>
 
 <!--more-->
 
+My primary goals with this project was to learn more about creating Autonomous Agents using state machines in Unity. The solution I landed on involved using an enum Property that would switch out Coroutine behaviors. 
+
+<iframe frameborder="0" src="https://itch.io/embed/591493?border_width=0&amp;bg_color=ffffff&amp;fg_color=ffffff&amp;link_color=ff1153&amp;border_color=333333" width="550" height="165"><a href="https://dayn9.itch.io/betrayal">Betrayal by dayn9</a></iframe>
+
 ## Animation
 
-Using Pyxel Edit I made some simple animations for the all the characters in the game. 
+Using *Pyxel Edit* I made some simple animations for the all the characters in the game. 
 I especially focused on making the dog as friendly and expressive as possible to give it personality and keep the player attached.
 
 ![Player]({{site.url}}/media/Project/Betrayal/player4.png)

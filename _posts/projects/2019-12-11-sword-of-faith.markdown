@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "Sword of Faith"
+description: "2 player co-op game where you must work together to navigate a museum while trading control of a single sword"
 date:   2019-12-20 11:15:33 -0400
 tags: [Unity, C#] 
 categories:  projects
-image: /media/class/Sword/SoFicon.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
-2 player cooperation game about 
+
 
 <!--more-->
 

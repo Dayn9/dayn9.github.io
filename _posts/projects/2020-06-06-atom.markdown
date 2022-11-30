@@ -1,14 +1,16 @@
 ---
 layout: docs
 title:  "Atom"
+description: "An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#."
 date:   2020-06-06 11:15:33 -0400
 tags: [C#, Unity] 
 categories:  [featured, projects]
-category: atom 
-image: /media/Project/Atom/H.png
+category: Personal
+banner_preview: preview-atom.png
+banner_image: banner-wip.png
 ---
 
-An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#. 
+<!--more-->
 
 <!-- Play Store Link -->
 <a href='https://play.google.com/store/apps/details?id=com.Savvy.Atom&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class = 'appLink' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
@@ -17,7 +19,6 @@ An educational mobile game about playing with protons, neutrons, and electrons t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VY5JD6I-dps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-<!--more-->
 
 # Development Build
 

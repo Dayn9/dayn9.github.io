@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Gender Roles in DOTA2"
+description: "Completed for PSYC 226 - Developmental Psychology"
 date:   2019-04-01 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
 image: /media/icon/download.png
+category: Essay
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Completed for PSYC 226 - Developmental Psychology 
 
 <!--more-->
 

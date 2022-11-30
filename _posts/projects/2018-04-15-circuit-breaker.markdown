@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Circuit Breaker"
+description: "Game concept with an animated cutscene. I drew and animated assets in a 2D animation class using Photoshop and After Effects which I then compiled into a Unity project"
 date:   2018-04-15 11:15:33 -0400
 tags: [Photoshop, AfterEffects, Unity]
 categories: projects
-image: /media/class/CircuitBreaker/c.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-Game concept with an animated cutscene. I drew and animated assets in a 2D animation class using Photoshop and After Effects which I then compiled into a Unity project
 
 <!--more-->
 

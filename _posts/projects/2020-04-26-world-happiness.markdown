@@ -1,13 +1,17 @@
 ---
 layout: post
 title:  "2019 World Happiness Report"
+description: "Data Visualization class project analyzing and visualizing the 2019 world happiness report"
 date:   2020-04-25 11:15:33 -0400
 tags: [d3, js] 
 categories:  projects
 image: /media/class/Map.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
-Project for Data Visualization class analyzing and visualizing the 2019 world happiness report
+
 <!--more-->
 
 <script src="{{site.url}}/assets/dataVis/d3.v5.min.js"></script>

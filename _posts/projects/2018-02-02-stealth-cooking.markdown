@@ -1,16 +1,18 @@
 ---
 layout: post
 title:  "Stealth Cooking"
+description: "Ludum Dare 41: 2D Stealth Cooking game about sneaking downstairs for a midnight snack."
 date:   2018-04-23 11:15:33 -0400
 tags: [C#, Unity, Audacity]
 categories: projects
-image: /media/Jam/Doge.png
+category: Personal
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
-2D Stealth Cooking game about sneaking downstairs for a midnight snack. I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
+I worked as a systems programmer and sound designer in Unity on a team of 4 for [Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/stealth-cooking). 
 
 <iframe src="https://itch.io/embed/249096" height="167" width="552" frameborder="0"></iframe>
-
 
 <!--more-->
 

@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Towers of Lumeth"
+description: "2-5 player competitive board game based around collecting resources and crafting spell while trying to deduce what spells your opponents are crafting. I worked on a team of 5 to help produce and play-test this game."
 date:   2019-09-27 11:15:33 -0400
 tags: [BoardGame] 
 categories:  projects
-image: /media/class/Tower/BloodStone.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-2-5 player competitive board game based around collecting resources and crafting spell while trying to deduce what spells your opponents are crafting. I worked on a team of 5 to help produce and play-test this game.
 
 <!--more-->
 

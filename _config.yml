@@ -18,19 +18,37 @@ email: danemsherman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Game Development and Psychology 
 baseurl: "" # the subpath of your site, e.g. /blog
+
+navigation:
+- text: Home
+  url: /#home
+- text: about
+  url: /#about
+- text: projects
+  url: /#blog
+- text: Contact
+  url: /#contact
+
+sass:
+  sass_dir: _sass
+
 url: "//dayn9.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DaneIsAlive
 github_username:  Dayn9
+linkedin_username: dane-sherman-9aa808154
+instagram_username: daneisalive
 
 show_excerpts: true
 excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+
+# The shortname for your Disqus site to enable comments.
+#disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "DANE SHERMAN"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

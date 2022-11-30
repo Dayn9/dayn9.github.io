@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Glory on the Dance Floor"
+description: "A competitive card game about dance battles with greek monsters and gods that I worked on with a team of 5 for a Game Design class"
 date:   2019-04-25 11:15:33 -0400
 tags: [Illustrator, BoardGame] 
 categories:  projects
-image: /media/class/Glory/God.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-A competitive card game about dance battles with greek monsters and gods that I worked on with a team of 5 for a Game Design class. 
 
 <!--more-->
 

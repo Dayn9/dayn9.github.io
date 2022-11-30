@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "Lab Rat"
+description: "Game about avoiding lab experiments I made for a web development class."
 date:   2018-12-19 11:15:33 -0400
 tags: [js, PIXI.js, html, css] 
 categories: projects
-image: /media/class/Needle.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
-Game about avoiding lab experiments I made for a web development class. For this I programmed a smooth grid movement system and animations to telegraph incoming traps.
+For this I programmed a smooth grid movement system and animations to telegraph incoming traps.
 
 <!--more-->
 

@@ -1,13 +1,17 @@
 ---
 layout: post
 title:  "Educational Trends"
+description: "Project for Data Visualization class analyzing and visualizing the effect of different variables on student success"
 date:   2020-03-23 11:15:33 -0400
 tags: [d3, js] 
 categories:  projects
 image: /media/class/Study.png
+category: Class
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
 
-Project for Data Visualization class analyzing and visualizing the effect of different variables on student success
+
 <!--more-->
 
 <script src="{{site.url}}/assets/dataVis/d3.v5.min.js"></script>

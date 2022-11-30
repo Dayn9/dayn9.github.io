@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Course Load"
+description: "An android app for recording and managing homework assignments created using Unity's UI system and C#. I use this app daily to manage keep all my upcoming assignments in one place"
 date:   2020-01-25 11:15:33 -0400
 tags: [C#, Unity, UI] 
 categories: [projects]
-image: /media/Project/CourseLoad/CourseLoadLogo.png
+category: Personal
+banner_preview: preview-wip.png
+banner_image: banner-wip.png
 ---
-
-An android app for recording and managing homework assignments created using Unity's UI system and C#. I use this app daily to manage keep all my upcoming assignments in one place
 
 <!--more-->
 
