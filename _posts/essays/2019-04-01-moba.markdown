@@ -13,8 +13,6 @@ banner_image: banner-wip.png
 
 <!--more-->
 
-## Final Poster
-
 [Download (.pdf)]({{site.url}}/media/psych/GenderRoles.pdf)
 
-![R1]({{site.url}}/media/psych/GenderRoles.png)
+![Gender Roles in DOTA 2 Poster]({{site.url}}/media/psych/GenderRoles.png)

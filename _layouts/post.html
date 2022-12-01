@@ -10,8 +10,11 @@ layout: default
 	<div class="container">
 		<div class="blog-detail-banner wow fadeIn">
 			{% if page.banner_image %}
-				<img src="{{site.baseurl}}/assets/images/blog-banner.jpg" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+				<img src="{{site.baseurl}}/assets/images/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+			{% else %}
+				<img src="{{site.baseurl}}/assets/images/banner-wip.png" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% endif %}
+
 		</div>
 		<div class="blog-detail-contents wow fadeInUp">
 			<h2>{{page.title}}</h2>

@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: post
 title:  "Atom"
 description: "An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#."
 date:   2020-06-06 11:15:33 -0400

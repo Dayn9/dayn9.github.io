@@ -12,25 +12,10 @@ banner_image: banner-wip.png
 
 <!--more-->
 
-## Final Poster
-
 [Download (.pdf)]({{site.url}}/assets/psychessay/Capstone_DaneSherman.pdf)
 
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-01.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-02.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-03.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-04.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-05.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-06.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-07.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-08.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-09.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-10.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-11.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-12.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-13.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-14.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-15.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-16.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-17.png)
-![page]({{site.url}}/media/psych/Capstone_DaneSherman/Capstone_DaneSherman-18.png)
+## Abstract
+
+The usage of active learning techniques has been shown to improve student engagement with the material as well as academic performance outcomes. A component of these techniques’ effectiveness may come from their ability to create intrinsic motivation in students. Like active learning itself, a student’s self-efficacy and intrinsic motivation towards learning are strongly correlated with both engagement and academic performance. This study further investigates the relationship between intrinsic motivation and the effectiveness of active learning techniques by looking at the impact of existing motivational factors. To examine this relationship, 20-30 current students will be asked about interest in a particular subject area and then given a text to study using an active or passive technique. Their scores on a short test of the material will be compared to ratings of interest.
+
+Keywords: Active learning, Intrinsic motivation, Online instruction

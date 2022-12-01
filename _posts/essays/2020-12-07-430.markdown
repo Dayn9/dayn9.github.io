@@ -5,7 +5,6 @@ description: "Completed for PSYC 431 - Memory and Attentions"
 date:   2020-12-07 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
-image: /media/icon/download.png
 category: Essay
 banner_preview: preview-wip.png
 banner_image: banner-wip.png
@@ -13,20 +12,10 @@ banner_image: banner-wip.png
 
 <!--more-->
 
-## Final Poster
-
 [Download (.pdf)]({{site.url}}/assets/psychessay/430_Final_DaneSherman.pdf)
 
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-01.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-02.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-03.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-04.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-05.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-06.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-07.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-08.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-09.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-10.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-11.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-12.png)
-![page]({{site.url}}/media/psych/430_Final_DaneSherman/430_Final_DaneSherman-13.png)
+## Abstract
+
+This literature review looked at studies that sought to explore the relationship between visual attention and video game playing. Video game players have been shown to have a higher attentional capacity than non-video game players. With some mixed results, this effect does appear to be trainable, specifically when similar skills can be found in the game or genre itself. Video game players also appear to have greater brain plasticity of regions involved with visual processing, but long term use may be linked with problems in attention and impulsivity.
+
+Keywords: video games, visual attention

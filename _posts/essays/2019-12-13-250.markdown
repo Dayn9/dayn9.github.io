@@ -5,7 +5,6 @@ description: "Completed for PSYC 250 - Research Methods I"
 date:   2019-12-13 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
-image: /media/icon/download.png
 category: Essay
 banner_preview: preview-wip.png
 banner_image: banner-wip.png
@@ -13,22 +12,10 @@ banner_image: banner-wip.png
 
 <!--more-->
 
-## Final Essay
-
 [Download (.pdf)]({{site.url}}/assets/psychessay/250_Essay.pdf)
 
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-01.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-02.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-03.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-04.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-05.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-06.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-07.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-08.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-09.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-10.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-11.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-12.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-13.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-14.png)
-![page]({{site.url}}/media/psych/250_Essay/250_Essay-15.png)
+## Abstract 
+
+This study aimed to examine how the length and start time of a class affected the engagement in that classroom. To examine this, 57 classes at the Rochester Institute of Technology were observed for a variety factors. Class length and start time were then compared with ratings of engagement, the number of people participating, and the number engaged in off task behavior. Neither class length or start time were shown to have a correlation with student engagement, but participation was shown to increase later in the day along with more off task behavior as the length of the class increased.
+
+Keywords: Class Length, Class Time, Engagement

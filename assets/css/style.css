@@ -1448,7 +1448,7 @@ figure {
 .blog-detail-content img {
 	width: 100%;
 	margin: 15px 0;
-	height: 350px;
+	min-height: 350px;
 	object-fit: cover;
 }
 
@@ -1922,7 +1922,7 @@ figure {
 	}
 
 	.blog-detail-content img {
-		height: 300px;
+		min-height: 300px;
 	}
 }
 

@@ -5,7 +5,6 @@ description: "Completed for PSYC 411 - Psychopharmacology"
 date:   2020-12-01 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
-image: /media/icon/download.png
 category: Essay
 banner_preview: preview-wip.png
 banner_image: banner-wip.png
@@ -13,19 +12,10 @@ banner_image: banner-wip.png
 
 <!--more-->
 
-## Final Poster
-
 [Download (.pdf)]({{site.url}}/assets/psychessay/411_Final_DaneSherman.pdf)
 
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-01.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-02.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-03.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-04.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-05.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-06.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-07.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-08.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-09.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-10.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-11.png)
-![page]({{site.url}}/media/psych/411_Final_DaneSherman/411_Final_DaneSherman-12.png)
+## Intro
+
+Adderall is a drug that is typically used to treat symptoms of ADHD and narcolepsy, but its ability to create focus over extended periods of time has made it popular among college students. Often termed a ‘study drug’ and likened to the more commonly used caffeine, Adderall is used by students who wish to perform better academically when either studying for or taking exams. However, there is a good reason why Adderall is not as readily available to college students as caffeine. The larger effects of the drug, especially when taken habitually can lead to addiction, structural changes in the central nervous system, and negative physical side effects.
+
+This literature review focuses on why Adderall is being used to treat ADHD, the effects it has on individuals without ADHD and the motivations behind college student use ...
