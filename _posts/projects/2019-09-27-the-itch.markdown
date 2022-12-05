@@ -6,7 +6,7 @@ date:   2019-09-27 11:15:33 -0400
 tags: [C#, Unity, HLSL] 
 categories: [featured, projects]
 category: Professional
-banner_preview: preview-wip.png
+banner_preview: preview-the-itch.png
 banner_image: banner-wip.png
 ---
 

@@ -5,8 +5,8 @@ description: "A Game about convincing a town that the End of the world is coming
 date:   2020-03-01 11:15:33 -0400
 tags: [Unity, PyxelEdit] 
 categories: [projects]
-category: Class
-banner_preview: preview-wip.png
+category: Personal
+banner_preview: preview-end-is-near.png
 banner_image: banner-wip.png
 ---
 

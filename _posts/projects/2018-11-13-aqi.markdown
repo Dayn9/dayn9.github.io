@@ -6,7 +6,7 @@ date:   2018-11-13 11:15:33 -0400
 tags: [js, JSON, Ajax, HTML, CSS]
 categories: projects
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-aqi.png
 banner_image: banner-wip.png
 ---
 

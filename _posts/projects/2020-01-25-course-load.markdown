@@ -6,7 +6,7 @@ date:   2020-01-25 11:15:33 -0400
 tags: [C#, Unity, UI] 
 categories: [projects]
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-course-load.png
 banner_image: banner-wip.png
 ---
 

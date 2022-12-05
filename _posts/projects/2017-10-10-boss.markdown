@@ -6,7 +6,7 @@ date:   2017-10-10 11:15:33 -0400
 tags: [Gamemaker]
 categories: projects
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-boss.png
 banner_image: banner-wip.png
 ---
 

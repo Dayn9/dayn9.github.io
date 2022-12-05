@@ -7,7 +7,7 @@ tags: [C#, Unity, PyxelEdit]
 categories: [projects]
 image: /media/Project/Betrayal/PlayerIcon4.png
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-betrayal.png
 banner_image: banner-wip.png
 ---
 

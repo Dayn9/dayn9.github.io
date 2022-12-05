@@ -7,7 +7,7 @@ tags: [d3, js]
 categories:  projects
 image: /media/class/Map.png
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-happiness.png
 banner_image: banner-wip.png
 ---
 

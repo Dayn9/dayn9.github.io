@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Video Gaming and Visual Attention"
-description: "Completed for PSYC 431 - Memory and Attentions"
+description: "Completed for PSYC 431 - Memory and Attention"
 date:   2020-12-07 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
 category: Essay
-banner_preview: preview-wip.png
+banner_preview: preview-psych-430.png
 banner_image: banner-wip.png
 ---
 

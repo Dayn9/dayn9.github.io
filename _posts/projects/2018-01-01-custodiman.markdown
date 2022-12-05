@@ -6,7 +6,7 @@ date:   2017-11-09 11:15:33 -0400
 tags: [PyxelEdit, Photoshop, Unity]
 categories: projects
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-custodiman.png
 banner_image: banner-wip.png
 ---
 

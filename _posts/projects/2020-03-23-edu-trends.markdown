@@ -7,7 +7,7 @@ tags: [d3, js]
 categories:  projects
 image: /media/class/Study.png
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-edu-trends.png
 banner_image: banner-wip.png
 ---
 

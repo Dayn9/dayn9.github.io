@@ -7,7 +7,7 @@ tags: [Psychology]
 categories:  projects
 image: /media/icon/download.png
 category: Essay
-banner_preview: preview-wip.png
+banner_preview: preview-moba.png
 banner_image: banner-wip.png
 ---
 

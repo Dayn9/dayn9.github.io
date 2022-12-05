@@ -6,7 +6,7 @@ date:   2019-09-27 11:15:33 -0400
 tags: [BoardGame] 
 categories:  projects
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-towers.png
 banner_image: banner-wip.png
 ---
 

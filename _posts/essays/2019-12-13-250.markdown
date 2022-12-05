@@ -6,7 +6,7 @@ date:   2019-12-13 11:15:33 -0400
 tags: [Psychology] 
 categories:  projects
 category: Essay
-banner_preview: preview-wip.png
+banner_preview: preview-psych-250.png
 banner_image: banner-wip.png
 ---
 

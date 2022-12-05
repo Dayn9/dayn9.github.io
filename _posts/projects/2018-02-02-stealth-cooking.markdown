@@ -6,7 +6,7 @@ date:   2018-04-23 11:15:33 -0400
 tags: [C#, Unity, Audacity]
 categories: projects
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-stealth.png
 banner_image: banner-wip.png
 ---
 

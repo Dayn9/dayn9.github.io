@@ -6,7 +6,7 @@ date:   2019-11-01 11:15:33 -0400
 tags: [Illustrator, Maya, Unity, C#] 
 categories:  projects
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-ink.png
 banner_image: banner-wip.png
 ---
 

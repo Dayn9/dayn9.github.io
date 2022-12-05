@@ -6,7 +6,7 @@ date:   2018-04-15 11:15:33 -0400
 tags: [Photoshop, AfterEffects, Unity]
 categories: projects
 category: Class
-banner_preview: preview-wip.png
+banner_preview: preview-circuit-breaker.png
 banner_image: banner-wip.png
 ---
 

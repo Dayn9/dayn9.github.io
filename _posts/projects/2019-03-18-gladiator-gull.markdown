@@ -5,7 +5,7 @@ description: "Completed for Brick Hack V game jam"
 date:   2019-03-18 11:15:33 -0400
 tags: [PyxelEdit, Unity] 
 category: Personal
-banner_preview: preview-wip.png
+banner_preview: preview-gull.png
 banner_image: banner-wip.png
 ---
 
