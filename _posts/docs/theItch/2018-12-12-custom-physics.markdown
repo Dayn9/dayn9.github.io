@@ -1,9 +1,13 @@
 ---
 layout: post
 title:  "Custom Physics"
+description: "Dynamic climbing on ramped and curved surfaces"
 date:   2018-12-12 11:15:33 -0400
 categories: [docs, theItch]
+category: Docs
 ---
+
+This is actually where this entire project started. I was curious about 2D physics and wanted to try my hand at writing it myself. 
 
 Based off [Unity 2D Platformer Character Controller Tutorial](https://www.youtube.com/watch?v=wGI2e3Dzk_w&t=9s) but heavily modified for specific use
 

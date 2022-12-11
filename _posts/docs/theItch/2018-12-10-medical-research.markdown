@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Medical Research"
+description: "Brief research to flesh out the narrative elements surrounding the virus"
 date:   2018-12-10 11:15:33 -0400
 categories: [docs, theItch]
+category: Docs
 ---
+
 
 The virus in this game is a disease that causes itching. I wanted to have some sort of biological basis and jargon for describing it and fleshing out how this virus might actually affect people. The following is a brief summary of that research. 
 

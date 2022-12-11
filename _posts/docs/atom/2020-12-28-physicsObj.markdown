@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "PhysicsObj"
+description: "Extremely stripped down Rigidbody to handle Kinematics"
 date:   2020-12-28 11:15:33 -0400
 categories: [docs, atom]
+category: Docs
 ---
 
 With 'collision' being handled by the separation algorithms, a simple Physics Object class was developed to replecate some basic rigid body functionality. 

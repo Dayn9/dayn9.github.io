@@ -80,43 +80,8 @@ layout: default
 
 <!-- Blog Detail End -->
 
-<!-- Blog start -->
+{% if page.docs-category.size > 0 %}
+	{% include docs.html %}
+{% endif %}
 
-<section id="blog" class="module module-gray blog">
-	<div class="container">
-
-		<div class="module-header">
-			<h2 class="module-title"> Recent Blog </h2>
-			<div class="module-line"></div>
-		</div>
-
-		<div class="row">
-
-        	{% for post in site.posts limit:3 %}
-				<div class="col-md-4">
-					<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-						<div class="blogList-img">
-							{% if post.banner_preview %}
-								<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
-							{% endif %}
-							{% if post.category %}
-							<span>{{ post.category }}</span>
-							{% endif %}
-						</div>
-						<div class="blogList-desc">
-							<h3>{{ post.title }}</h3>
-							<div>{{ post.description }}</div>
-						</div>
-					</a>
-				</div>
-			{% endfor %}
-
-			<div class="col-md-12">
-				<a class="blog-viewMore" href="{{site.baseurl}}/blog.html">VIEW MORE</a>
-			</div>
-
-		</div><!-- .row -->
-	</div><!-- .container -->
-</section>
-
-<!-- Blog end -->
+{% include recent_projects.html %}

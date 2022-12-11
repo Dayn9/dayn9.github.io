@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: post
 title: The Itch
 permalink: /theItch/
 category: theItch

@@ -8,6 +8,7 @@ categories: [featured, projects]
 category: Professional
 banner_preview: preview-the-itch.png
 banner_image: banner-wip.png
+docs-category: theItch
 ---
 
 <!--more-->
@@ -17,7 +18,7 @@ banner_image: banner-wip.png
 </figure>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7s0-IFvXH_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-s
+
 ![Full map]({{site.url}}/media/TheItch/After.png)
 
 ## Development Features

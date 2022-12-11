@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "User Interface"
+description: "Creating pixel perfect UI that would exactly match the world space pixels"
 date:   2018-12-10 11:15:33 -0400
 categories: [docs, theItch]
+category: Docs
 ---
 
 In order to get collected items to easily enter/exit the inventory, utilize the same background fade on UI and world objects, and maintain a consistent pixel size I decided to write my own UI anchors that could be utilized as child objects of the Main Camera. 

@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Recursive Shell Configuration"
+description: "Mimicking Electron configuration using recursion"
 date:   2020-12-28 11:15:33 -0400
 categories: [docs, atom]
+category: Docs
 ---
 
 The most complicated feature by far was getting electrons to configure properly across shells. Mainly caused by the order in which electrons are added. I assume there are many ways to solve this problem but I felt a recursive solution was the most elegant.

@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Particle Pursuit"
+description: "Manually controlling Unity's particle system with flocking algorithms"
 date:   2018-12-11 11:15:33 -0400
 categories: [docs, theItch]
+category: Docs
 ---
 
 The explosion of particles that seek a point is probably the coolest effect in the game and was also one of the trickiest to figure out.

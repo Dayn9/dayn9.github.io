@@ -1,20 +1,24 @@
 ---
 layout: post
 title:  "Separation algorithms "
+description: "Running separation algorithms in parallel to \"Animate\" particle configuration "
 date:   2020-12-28 11:15:33 -0400
 categories: [docs, atom]
+category: Docs
 ---
 
 Separation algorithms were used to position particles with a smooth motion. similar methods were used for the shells and nucleus with slight variations.
+
 <!--more-->
 
-## Nucleus Separation
+## Optimizations 
 
-Protons and Neutrons in the nucleus are all controlled by the same separation algorithm.
+In the actual program a `Parallel.For` loop replaces the first for loop to speed up the calculations.
 
-In the actual program a `Parallel.For` loop replaces the first for loop to speed up the calculations
+Each particle loops over all PREVIOUS particles and adds equal opposing forces to each. 
 
 ### move to center
+Protons and Neutrons in the nucleus are all controlled by the same separation algorithm.
 Every particle in the Nucleus moves towards the center.
 This force is normalized and then clamped to it's own magnitude so the particles slow on approach
 

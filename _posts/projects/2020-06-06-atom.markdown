@@ -8,6 +8,7 @@ categories:  [featured, projects]
 category: Personal
 banner_preview: preview-atom.png
 banner_image: banner-wip.png
+docs-category: atom
 ---
 
 <!--more-->
@@ -19,7 +20,7 @@ banner_image: banner-wip.png
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VY5JD6I-dps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-
+<!--
 # Development Build
 
 <script src="{{site.url}}/assets/atom/TemplateData/UnityProgress.js"></script>
@@ -39,6 +40,8 @@ banner_image: banner-wip.png
 <div id="unityContainer" style="margin: auto"></div>
 <button onclick="unityInstance.SetFullscreen(1)">FullScreen</button>
 web build may not scale well, intended for phone screens
+
+-->
 
 
 # Initial Design

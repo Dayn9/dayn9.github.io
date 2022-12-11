@@ -1448,8 +1448,8 @@ figure {
 .blog-detail-content img {
 	width: 100%;
 	margin: 15px 0;
-	min-height: 350px;
-	object-fit: cover;
+	/*min-height: 350px;
+	object-fit: cover;*/
 }
 
 .blog-detail-about .media-body {

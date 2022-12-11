@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Outline Shader"
+description: "A simple shader for adding contrast"
 date:   2019-02-10 11:15:33 -0400
 categories: [docs, theItch]
+category: Docs
 ---
 
 Outlines became a necessary feature when I started to include NPC's with similar skin tones into the game. The effect helped a lot with contrasting the player and other NPC's. 
