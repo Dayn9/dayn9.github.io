@@ -9,7 +9,7 @@ layout: default
 
 		<div class="intro">
 			<h1>Dane Sherman</h1>
-            <h3>I'm a game developer primarily working in Unity & C#</h3>
+            <h3>programming training simulations, educational games, and research tools</h3>
 		</div>
 		
 		<div class="mouse-icon">
@@ -60,7 +60,7 @@ layout: default
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Unity Developer</h3>
 								<div class="iconboxleft-desc">
-                                    I'm currently working professionally as a Mid-Level Unity Developer
+                                    I'm current developing training simulations with Unity and C# for work
 								</div>
 							</div>
 						</div>
@@ -76,7 +76,7 @@ layout: default
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">UI Designer</h3>
 								<div class="iconboxleft-desc">
-                                    A big passion of mine is designing interactions for UI systems
+									A lot of the work I do involves designing interactions and user workflows for UI systems
 								</div>
 							</div>
 						</div>
@@ -96,7 +96,7 @@ layout: default
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Pixel Artist</h3>
 								<div class="iconboxleft-desc">
-                                    Outside of work I love combining embroidery patterns using modern pixel art techniques
+                                    Outside of work, I love experimenting with traditional embroidery patterns using modern image editors
 								</div>
 							</div>
 						</div>
@@ -131,9 +131,9 @@ layout: default
 
 	<!-- About end -->
 
-	<!-- Blog start -->
+	<!-- Projects start -->
 
-	<section id="blog" class="module blog module-gray">
+	<section id="projects" class="module blog module-gray">
 		<div class="container">
 
 			<div class="module-header wow fadeInUp">
@@ -163,14 +163,14 @@ layout: default
 				{% endfor %}
 
 				<div class="col-md-12">
-					<a class="blog-viewMore" href="{{site.baseurl}}/blog.html">VIEW MORE</a>
+					<a class="blog-viewMore" href="{{site.baseurl}}/projects.html">VIEW MORE</a>
 				</div>
 
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section>
 
-	<!-- Blog end -->
+	<!-- Projects end -->
 
 	
 	<!-- Portfolio start -->
@@ -293,6 +293,37 @@ layout: default
 
 	<!-- Portfolio end -->
 
+	<!-- Resume start -->
+
+	<section id="resume" class="module">
+		<div class="container">
+			<div class="row">
+				<div class="module-header wow fadeInUp">
+					<h2 class="module-title"> Resume </h2>
+					<div class="module-line"></div>
+				</div>
+			</div><!-- .row -->
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<form id="resume-form" method="get" action="{{ base.url | prepend: site.url }}/assets/Resume_DaneSherman.pdf">
+						<div class="ajax-hidden">
+							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Download (pdf)
+							</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<p>Last Updated: Dec 2022</p>
+					<img class = "resume-image" src="{{ base.url | prepend: site.url }}/media/Resume_DaneSherman.png" alt="Dane Sherman Resume">
+				</div>
+			</div>
+		</div> <!-- .contaier -->
+	</section>
+
+	<!-- Resume end -->
 
 	<!-- Contact start -->
 

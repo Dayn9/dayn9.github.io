@@ -20,13 +20,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 navigation:
-- text: Home
+- text: home
   url: /#home
 - text: about
   url: /#about
 - text: projects
-  url: /#blog
-- text: Contact
+  url: /#projects
+- text: resume
+  url: /#resume
+- text: contact
   url: /#contact
 
 sass:
