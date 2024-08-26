@@ -43,7 +43,6 @@ web build may not scale well, intended for phone screens
 
 -->
 
-
 # Initial Design
 
 The first version established some of the base behaviors up to the 3rd level in the periodic table
