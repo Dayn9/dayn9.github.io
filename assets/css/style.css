@@ -101,19 +101,17 @@ h1, h2, h3, h4, h5, h6 {
 	font: 700 40px/1.2 'Poppins', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin: 0;
 	color: #5b5963;
+	margin: 15px 0;
 }
 
 h2 {
 	font-size: 30px;
-	margin: 0 0 30px;
 }
 
 h3 {
 	font-size: 13px;
 	letter-spacing: 1px;
-	margin: 0 0 5px;
 }
 
 h4 {
@@ -648,6 +646,11 @@ textarea.form-control {
 
 .intro h1 {
 	font-size: 50px;
+	margin: 0;
+}
+
+.intro h3 {
+	margin: 0;
 }
 
 /*
