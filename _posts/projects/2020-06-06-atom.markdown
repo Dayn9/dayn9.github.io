@@ -13,7 +13,14 @@ docs-category: atom
 
 <!--more-->
 
-### Temporarily removed from play store, I'm working on it!
+### Temporarily removed from play store, back online October 2024
+
+An educational mobile game about playing with protons, neutrons, and electrons to make Atoms being developed in Unity and C#. 
+My goal for this project was to create an interactive and fun way to play with Atoms. 
+I wanted to explore what it would mean to create something that could teach through play and help shape intuition. 
+With Atom, learners can explore how the properties of an atom change as particles are added and removed. 
+Which particles affect the mass? Which ones affect the charge? Which energy level do electrons belong to? 
+Atom allows learners to discover the answers to these questions and build an understanding based on experience and play. 
 
 <!-- Play Store Link -->
 <!--
@@ -22,6 +29,18 @@ docs-category: atom
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VY5JD6I-dps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
+
+## Development Features
+
+While I'm no chemistry expert, I did put in a lot or research and learning of my own in an attempt to get the atomic model as close as I could. 
+
+**[Recursive Shell Configuration]({{site.url}}/docs/atom/2020/12/28/recursiveShells.html)** 
+
+With that research in mind I also wanted to make sure Atom was still fun to play with. With a bit of fine tuning I was able to apply flocking and separation algorithms to all of the particles. This gave the final effect of organic and 'squishy' movement while providing me enough control to get the particles where they needed to be. 
+
+**[Separation Algorithms]({{site.url}}/docs/atom/2020/12/28/seperation.html)** 
+
+**[Physics Object]({{site.url}}/docs/atom/2020/12/28/physicsObj.html)**
 
 <!--
 # Development Build
@@ -44,10 +63,12 @@ docs-category: atom
 <button onclick="unityInstance.SetFullscreen(1)">FullScreen</button>
 web build may not scale well, intended for phone screens
 
--->
+
 
 # First Release
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/650zlhHFVjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
+
+-->
