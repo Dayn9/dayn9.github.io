@@ -16,7 +16,7 @@
 title: Dane Sherman
 email: danemsherman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Game Development and Psychology 
+  Programming training simulations, educational games, and research tools
 baseurl: "" # the subpath of your site, e.g. /blog
 
 navigation:
