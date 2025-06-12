@@ -31,8 +31,6 @@ navigation:
   url: /#projects
 - text: resume
   url: /#resume
-- text: contact
-  url: /#contact
 
 url: "//dayn9.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: DaneIsAlive
