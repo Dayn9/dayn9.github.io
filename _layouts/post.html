@@ -8,8 +8,7 @@ layout: default
 
 <section class="blog-detail">
 	<div class="container">
-		<!--
-		<div class="blog-detail-banner wow fadeIn">
+		<div class="blog-detail-banner wow fadeIn" hidden>
 			{% if page.banner_image %}
 				<img src="{{site.baseurl}}/assets/images/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% else %}
@@ -17,7 +16,7 @@ layout: default
 			{% endif %}
 
 		</div>
-		-->
+		<div class="spacer"></div>
 		<div class="blog-detail-contents wow fadeInUp">
 			<h2>{{page.title}}</h2>
 			<div class="blog-detail-about clearfix">
@@ -34,11 +33,7 @@ layout: default
 					{{ page.category }}
 				</div>
 			</div>
-			<div class="blog-detail-content">
-				{{content}}
-			</div>
-			<div class="blog-detail-footer">
-				<div class="row">
+			<div class="row">
 					<div class="col-md-12">
 						<div class="blog-detail-tags">
 							<ul> 
@@ -54,6 +49,11 @@ layout: default
 						</div>
 					</div>
 				</div>
+			<div class="blog-detail-content">
+				{{content}}
+			</div>
+			<div class="blog-detail-footer" hidden>
+				
 				<div class="blog-detail-sib">
 					<div class="row">
 						{% if page.previous.url %}
