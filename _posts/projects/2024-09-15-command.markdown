@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Command Plugin"
+description: "Command Pattern for implementing undo/redo systems in Unreal Engine"
+date:   2024-09-15 11:15:33 -0400
+tags: [C++, Unreal]
+categories: [projects, featured]
+category: Personal
+banner_preview: preview-command.png
+banner_image: banner-wip.png
+---
+
+<!--more-->
+
+As to not maintain duplicate documentation, more details can be found here: 
+[View on Github](https://github.com/Dayn9/CommandPlugin)
+
+I created this plugin for Unreal Engine as a general purpose undo / redo system. It uses the command pattern ([more details here](https://refactoring.guru/design-patterns/command)) to handle all the tracking of undo-able user actions and separate this logic as much as possible from game features. The basic idea behind using the command pattern for undo / redo is to wrap any function that needs to be undo-able with a command. The command defines how that function is executed (do) to change the state and then how it is unexecuted (undo) back to the original state. We then store a history or list of these commands that we can step forwards or backwards 
+
+### Blueprintable Interfaces
+
+The entire system is usable in both C++ and Blueprint! This was achieved using blueprint interfaces for both the commands and the command history.  
+
+![Example usage in Blueprint](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Example.png)
+
+![Interfaces in C++](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Interfaces.png)
+
+### C++ Example Command
+
+Here is an example of how to turn a function into a command. I have more details about this specific example in the github readme, but this should provide some context. [View on Github](https://github.com/Dayn9/CommandPlugin)
+
+Let's start with an example object ExampleState with a function SetX() that we want to track in the command history.
+
+{% highlight c %}
+class ExampleState
+{
+private: 
+	float X;
+public: 
+	float GetX() { return X; }
+	void SetX(float NewX) { X = NewX; }
+}
+{% endhighlight %}
+
+In order to call SetX() from a command we will need:
+
+1. a reference to the object it's being called on
+2. the float value we want to use
+
+These will be *assigned in the constructor* of our command (exposed on spawn in blueprint)
+
+{% highlight c %}
+class ExampleCommand : pubic ICommand
+{
+	ExampleState* Target;
+	float NewX;
+	float OldX;
+
+	ExampleCommand(ExampleState* InTarget, float InNewX)
+	{
+		Target = InTarget;
+		NewX = InNewX;
+		OldX = Target->GetX(); // store the old value 
+	}
+
+	void Do_Implementation() override { Target->SetX(NewX); }
+	void Undo_Implementation() override { Target->SetX(OldX); }
+	FString GetDisplayString_Implementation() override { return "updated X on target"; } 
+}
+{% endhighlight %}
