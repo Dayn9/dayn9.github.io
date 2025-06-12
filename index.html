@@ -131,6 +131,38 @@ layout: default
 
 	<!-- About end -->
 
+	<!-- Resume start -->
+
+	<section id="resume" class="module">
+		<div class="container">
+			<div class="row">
+				<div class="module-header wow fadeInUp">
+					<h2 class="module-title"> Resume </h2>
+					<div class="module-line"></div>
+				</div>
+			</div><!-- .row -->
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<form id="resume-form" method="get" action="{{ base.url | prepend: site.url }}/assets/Resume_DaneSherman.pdf">
+						<div class="ajax-hidden">
+							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Download (pdf)
+							</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<p>Last Updated: June 2025</p>
+					<img class = "resume-image" src="{{ base.url | prepend: site.url }}/media/Resume_DaneSherman.png" alt="Dane Sherman Resume">
+				</div>
+			</div>
+		</div> <!-- .contaier -->
+	</section>
+
+	<!-- Resume end -->
+
 	<!-- Projects start -->
 
 	<section id="projects" class="module blog module-gray">
@@ -293,41 +325,9 @@ layout: default
 
 	<!-- Portfolio end -->
 
-	<!-- Resume start -->
-
-	<section id="resume" class="module">
-		<div class="container">
-			<div class="row">
-				<div class="module-header wow fadeInUp">
-					<h2 class="module-title"> Resume </h2>
-					<div class="module-line"></div>
-				</div>
-			</div><!-- .row -->
-			<div class="row">
-				<div class="col-md-4 offset-md-4">
-					<form id="resume-form" method="get" action="{{ base.url | prepend: site.url }}/assets/Resume_DaneSherman.pdf">
-						<div class="ajax-hidden">
-							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Download (pdf)
-							</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<p>Last Updated: June 2025</p>
-					<img class = "resume-image" src="{{ base.url | prepend: site.url }}/media/Resume_DaneSherman.png" alt="Dane Sherman Resume">
-				</div>
-			</div>
-		</div> <!-- .contaier -->
-	</section>
-
-	<!-- Resume end -->
-
 	<!-- Contact start -->
 
-	<section id="contact" class="module">
+	<section id="contact" class="module" hidden>
 		<div class="container">
 
 			<div class="module-header wow fadeInUp">
