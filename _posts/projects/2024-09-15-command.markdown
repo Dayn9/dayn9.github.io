@@ -17,35 +17,50 @@ As to not maintain duplicate documentation, more details can be found here:
 
 I created this plugin for Unreal Engine as a general purpose undo / redo system. It uses the command pattern ([more details here](https://refactoring.guru/design-patterns/command)) to handle all the tracking of undo-able user actions and separate this logic as much as possible from game features. The basic idea behind using the command pattern for undo / redo is to wrap any function that needs to be undo-able with a command. The command defines how that function is executed (do) to change the state and then how it is unexecuted (undo) back to the original state. We then store a history or list of these commands that we can step forwards or backwards 
 
+![Class Diagram](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/ClassDiagram.png)
+
 ### Blueprintable Interfaces
 
 The entire system is usable in both C++ and Blueprint! This was achieved using blueprint interfaces for both the commands and the command history.  
 
 ![Example usage in Blueprint](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Example.png)
+![Example usage in Blueprint](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Example2.png)
 
-![Interfaces in C++](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Interfaces.png)
+### Spawn Actor, Destroy Actor, and 'Limbo'
+
+One issue I was trying solve with this plugin was the use of commands when tracking changes to actors. In a previous iteration of this plugin I had run into issues where I needed to track undoable commands on an actor that was itself spawned in from a command. Undoing that spawn command meant destroying the actor but I still needed to reference it for later commands if the user decided to redo the spawn and edits! 
+
+My solution was to put the actor in 'limbo' where it is disabled but not destroyed. This allows other systems or commands to hold references to the actor while it might be restored. It also mean that those actor editing commands don't need any additional considerations when it comes to referencing the actor. We can be sure that it's there since it's tied to the lifetime of the command. 
+
+The system is also quite elegant in the way that it handles both spawn and destroy, these commands can operate totally independent of each other even when referencing the same actor. 
+
+![Actors in Limbo](https://raw.githubusercontent.com/Dayn9/CommandPlugin/refs/heads/main/Release/Limbo.png)
 
 ### C++ Example Command
 
-Here is an example of how to turn a function into a command. I have more details about this specific example in the github readme, but this should provide some context. [View on Github](https://github.com/Dayn9/CommandPlugin)
-
-Let's start with an example object ExampleState with a function SetX() that we want to track in the command history.
+Here is an example of how to turn a function into a command:
+We start with an example object `ExampleState` with a variable `X` that we want to track in the command history.
 
 {% highlight c %}
 class ExampleState
 {
-private: 
 	float X;
-public: 
-	float GetX() { return X; }
-	void SetX(float NewX) { X = NewX; }
+
+	float GetX() 
+	{ 
+		return X; 
+	}
+
+	void SetX(float NewX) 
+	{ 
+		X = NewX; 
+	}
 }
 {% endhighlight %}
 
-In order to call SetX() from a command we will need:
-
+To track changes to `X` in a command, we will need:
 1. a reference to the object it's being called on
-2. the float value we want to use
+2. the new value 
 
 These will be *assigned in the constructor* of our command (exposed on spawn in blueprint)
 
@@ -63,8 +78,19 @@ class ExampleCommand : pubic ICommand
 		OldX = Target->GetX(); // store the old value 
 	}
 
-	void Do_Implementation() override { Target->SetX(NewX); }
-	void Undo_Implementation() override { Target->SetX(OldX); }
-	FString GetDisplayString_Implementation() override { return "updated X on target"; } 
+	void Do_Implementation() override
+	{
+		Target->SetX(NewX);
+	}
+
+	void Undo_Implementation() override
+	{
+		Target->SetX(OldX);
+	}
+
+	FString GetDisplayString_Implementation() override
+	{
+		return "updated X on target";
+	} 
 }
 {% endhighlight %}
